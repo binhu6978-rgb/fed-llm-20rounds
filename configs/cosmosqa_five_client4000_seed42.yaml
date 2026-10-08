@@ -1,0 +1,21 @@
+domains: [cosmosqa, openbookqa, sciq, hellaswag, race]
+model_path: models/models--llama3.2-1B
+initial_lora: models/initial_lora/seed42_r8_alpha32_qv.pt
+prepared_dir: dataset/cosmosqa_five_client4000_seed42
+seed: 42
+train_samples_per_dataset: 4000
+rounds: 10
+clientlocal_epochs: 10
+centralized_epochs: 10
+local_epochs_per_round: 1
+batch_size: 1
+gradient_accumulation: 8
+learning_rate: 0.0001
+step: 0
+drop_last: false
+lora_rank: 8
+lora_alpha: 32
+lora_dropout: 0.05
+eval_batch_size: 8
+reuse_all_base_local: true
+cross_domain_matrix: false

@@ -1,0 +1,11 @@
+common_config: configs/cosmosqa_five_client4000_seed42.yaml
+original_command: python -X utf8 -u scripts/run_cosmosqa_five_experiments.py --job fedavg
+algorithms:
+  fedexlora: {}
+  fedrotlora: {lam: 0.5}
+  flexlora: {s: 2}
+  fedmomentum: {residual_threshold: 0.9999}
+rounds: 10
+smoke_rounds: 2
+smoke_train_samples_per_client: 8
+smoke_full_test_sets: true

@@ -1,0 +1,10 @@
+{
+  "function_state_sha256": "85ac4f83d13752b42d78daedbdb64e839f7dc0125d1c65da1b6adf18b2a3823c",
+  "checkpoint": "outputs/fedlora20_server_seed42/fedrotlora/round_15/client_race/raw_lora.pt",
+  "domains": [
+    "race"
+  ],
+  "round": 15,
+  "canonical_base_sha256": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+  "backbone_included": false
+}

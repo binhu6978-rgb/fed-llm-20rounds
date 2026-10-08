@@ -1,0 +1,48 @@
+{
+  "best_round": 9,
+  "best_metrics": {
+    "cosmosqa_accuracy": 0.6453333333333333,
+    "openbookqa_accuracy": 0.644,
+    "sciq_accuracy": 0.8333333333333334,
+    "hellaswag_accuracy": 0.688,
+    "race_accuracy": 0.6393333333333333,
+    "macro_accuracy": 0.6900000000000001,
+    "worst_domain_accuracy": 0.6393333333333333
+  },
+  "best_checkpoint": "outputs\\fedlora_baselines_5source_seed42\\baseline_fedrotlora_5source_seed42\\round_09\\global\\complete_state.pt",
+  "final_round": 10,
+  "final_metrics": {
+    "cosmosqa_accuracy": 0.6346666666666667,
+    "openbookqa_accuracy": 0.648,
+    "sciq_accuracy": 0.8283283283283284,
+    "hellaswag_accuracy": 0.69,
+    "race_accuracy": 0.6466666666666666,
+    "macro_accuracy": 0.6895323323323324,
+    "worst_domain_accuracy": 0.6346666666666667
+  },
+  "final_checkpoint": "outputs\\fedlora_baselines_5source_seed42\\baseline_fedrotlora_5source_seed42\\round_10\\global\\complete_state.pt",
+  "oracle_diagnostics": {
+    "cosmosqa": {
+      "round": 8,
+      "accuracy": 0.6513333333333333
+    },
+    "openbookqa": {
+      "round": 10,
+      "accuracy": 0.648
+    },
+    "sciq": {
+      "round": 6,
+      "accuracy": 0.8343343343343343
+    },
+    "hellaswag": {
+      "round": 10,
+      "accuracy": 0.69
+    },
+    "race": {
+      "round": 10,
+      "accuracy": 0.6466666666666666
+    }
+  },
+  "method": "fedrotlora",
+  "warnings": []
+}

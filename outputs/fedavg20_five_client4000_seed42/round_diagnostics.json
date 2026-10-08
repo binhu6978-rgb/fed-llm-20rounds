@@ -1,0 +1,2388 @@
+{
+  "units": "Accuracy and gains are fractions; plots show percent and percentage points.",
+  "undefined_retention": "CSV NaN and JSON null when local_gain <= 0; ratios are not clipped.",
+  "rounds": [
+    {
+      "round": 1,
+      "global_before": {
+        "cosmosqa_accuracy": 0.36666666666666664,
+        "openbookqa_accuracy": 0.405,
+        "sciq_accuracy": 0.6601601601601602,
+        "hellaswag_accuracy": 0.28,
+        "race_accuracy": 0.4013333333333333,
+        "macro_accuracy": 0.4226320320320321,
+        "worst_domain_accuracy": 0.28
+      },
+      "local_after": {
+        "cosmosqa_accuracy": 0.6106666666666667,
+        "openbookqa_accuracy": 0.67,
+        "sciq_accuracy": 0.8388388388388388,
+        "hellaswag_accuracy": 0.716,
+        "race_accuracy": 0.5986666666666667
+      },
+      "global_after": {
+        "cosmosqa_accuracy": 0.4726666666666667,
+        "openbookqa_accuracy": 0.5,
+        "sciq_accuracy": 0.8123123123123123,
+        "hellaswag_accuracy": 0.37466666666666665,
+        "race_accuracy": 0.514,
+        "macro_accuracy": 0.5347291291291291,
+        "worst_domain_accuracy": 0.37466666666666665
+      },
+      "common_start_tensor_sha256": "2499167c8ba147f32045ce230fd2c26d88ddca0eddf6447061848502d7b87f23",
+      "global_after_tensor_sha256": "878f73e02ecc4d8b5f2c792e140355e2aa298a55e5693eff2bc9c9f48481efb6",
+      "weights": {
+        "cosmosqa": 0.2,
+        "openbookqa": 0.2,
+        "sciq": 0.2,
+        "hellaswag": 0.2,
+        "race": 0.2
+      },
+      "clients": {
+        "cosmosqa": {
+          "train_loss": 0.4774824335080339,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "openbookqa": {
+          "train_loss": 0.4559550202934406,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "sciq": {
+          "train_loss": 0.26646486611009457,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "hellaswag": {
+          "train_loss": 0.5114386747106328,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "race": {
+          "train_loss": 0.5410355991954275,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      }
+    },
+    {
+      "round": 2,
+      "global_before": {
+        "cosmosqa_accuracy": 0.4726666666666667,
+        "openbookqa_accuracy": 0.5,
+        "sciq_accuracy": 0.8123123123123123,
+        "hellaswag_accuracy": 0.37466666666666665,
+        "race_accuracy": 0.514,
+        "macro_accuracy": 0.5347291291291291,
+        "worst_domain_accuracy": 0.37466666666666665
+      },
+      "local_after": {
+        "cosmosqa_accuracy": 0.6386666666666667,
+        "openbookqa_accuracy": 0.656,
+        "sciq_accuracy": 0.8378378378378378,
+        "hellaswag_accuracy": 0.748,
+        "race_accuracy": 0.6386666666666667
+      },
+      "global_after": {
+        "cosmosqa_accuracy": 0.5506666666666666,
+        "openbookqa_accuracy": 0.562,
+        "sciq_accuracy": 0.8173173173173173,
+        "hellaswag_accuracy": 0.53,
+        "race_accuracy": 0.588,
+        "macro_accuracy": 0.6095967967967968,
+        "worst_domain_accuracy": 0.53
+      },
+      "common_start_tensor_sha256": "878f73e02ecc4d8b5f2c792e140355e2aa298a55e5693eff2bc9c9f48481efb6",
+      "global_after_tensor_sha256": "4edd918aa9cc870af9cc854f894dd45cb27c0aadc72085aee24896c9c232cac9",
+      "weights": {
+        "cosmosqa": 0.2,
+        "openbookqa": 0.2,
+        "sciq": 0.2,
+        "hellaswag": 0.2,
+        "race": 0.2
+      },
+      "clients": {
+        "cosmosqa": {
+          "train_loss": 0.4013954342055949,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "openbookqa": {
+          "train_loss": 0.399087726482132,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "sciq": {
+          "train_loss": 0.22041041322476668,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "hellaswag": {
+          "train_loss": 0.39484702851365727,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "race": {
+          "train_loss": 0.4779748580340238,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      }
+    },
+    {
+      "round": 3,
+      "global_before": {
+        "cosmosqa_accuracy": 0.5506666666666666,
+        "openbookqa_accuracy": 0.562,
+        "sciq_accuracy": 0.8173173173173173,
+        "hellaswag_accuracy": 0.53,
+        "race_accuracy": 0.588,
+        "macro_accuracy": 0.6095967967967968,
+        "worst_domain_accuracy": 0.53
+      },
+      "local_after": {
+        "cosmosqa_accuracy": 0.6586666666666666,
+        "openbookqa_accuracy": 0.684,
+        "sciq_accuracy": 0.8343343343343343,
+        "hellaswag_accuracy": 0.7546666666666667,
+        "race_accuracy": 0.6493333333333333
+      },
+      "global_after": {
+        "cosmosqa_accuracy": 0.5913333333333334,
+        "openbookqa_accuracy": 0.584,
+        "sciq_accuracy": 0.8293293293293293,
+        "hellaswag_accuracy": 0.6093333333333333,
+        "race_accuracy": 0.6026666666666667,
+        "macro_accuracy": 0.6433325325325325,
+        "worst_domain_accuracy": 0.584
+      },
+      "common_start_tensor_sha256": "4edd918aa9cc870af9cc854f894dd45cb27c0aadc72085aee24896c9c232cac9",
+      "global_after_tensor_sha256": "5dd01d7443dc7d41f83eda9431a73e55ae4a9a2c2291e7ab8dbc93cf97b1678d",
+      "weights": {
+        "cosmosqa": 0.2,
+        "openbookqa": 0.2,
+        "sciq": 0.2,
+        "hellaswag": 0.2,
+        "race": 0.2
+      },
+      "clients": {
+        "cosmosqa": {
+          "train_loss": 0.3590049351722555,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "openbookqa": {
+          "train_loss": 0.3565336828647414,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "sciq": {
+          "train_loss": 0.1939467855137227,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "hellaswag": {
+          "train_loss": 0.32614376398343303,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "race": {
+          "train_loss": 0.4309057168450818,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      }
+    },
+    {
+      "round": 4,
+      "global_before": {
+        "cosmosqa_accuracy": 0.5913333333333334,
+        "openbookqa_accuracy": 0.584,
+        "sciq_accuracy": 0.8293293293293293,
+        "hellaswag_accuracy": 0.6093333333333333,
+        "race_accuracy": 0.6026666666666667,
+        "macro_accuracy": 0.6433325325325325,
+        "worst_domain_accuracy": 0.584
+      },
+      "local_after": {
+        "cosmosqa_accuracy": 0.668,
+        "openbookqa_accuracy": 0.695,
+        "sciq_accuracy": 0.8513513513513513,
+        "hellaswag_accuracy": 0.7806666666666666,
+        "race_accuracy": 0.656
+      },
+      "global_after": {
+        "cosmosqa_accuracy": 0.6126666666666667,
+        "openbookqa_accuracy": 0.613,
+        "sciq_accuracy": 0.8263263263263263,
+        "hellaswag_accuracy": 0.624,
+        "race_accuracy": 0.6126666666666667,
+        "macro_accuracy": 0.6577319319319319,
+        "worst_domain_accuracy": 0.6126666666666667
+      },
+      "common_start_tensor_sha256": "5dd01d7443dc7d41f83eda9431a73e55ae4a9a2c2291e7ab8dbc93cf97b1678d",
+      "global_after_tensor_sha256": "98591fcf91fa66b22df61404debf2bd3fbe62bb3edfa73cd5bec888c526470e5",
+      "weights": {
+        "cosmosqa": 0.2,
+        "openbookqa": 0.2,
+        "sciq": 0.2,
+        "hellaswag": 0.2,
+        "race": 0.2
+      },
+      "clients": {
+        "cosmosqa": {
+          "train_loss": 0.3270879908642673,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "openbookqa": {
+          "train_loss": 0.33044003823554524,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "sciq": {
+          "train_loss": 0.174535520851432,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "hellaswag": {
+          "train_loss": 0.2932097400005623,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "race": {
+          "train_loss": 0.3975210758329631,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      }
+    },
+    {
+      "round": 5,
+      "global_before": {
+        "cosmosqa_accuracy": 0.6126666666666667,
+        "openbookqa_accuracy": 0.613,
+        "sciq_accuracy": 0.8263263263263263,
+        "hellaswag_accuracy": 0.624,
+        "race_accuracy": 0.6126666666666667,
+        "macro_accuracy": 0.6577319319319319,
+        "worst_domain_accuracy": 0.6126666666666667
+      },
+      "local_after": {
+        "cosmosqa_accuracy": 0.6786666666666666,
+        "openbookqa_accuracy": 0.685,
+        "sciq_accuracy": 0.8463463463463463,
+        "hellaswag_accuracy": 0.7773333333333333,
+        "race_accuracy": 0.664
+      },
+      "global_after": {
+        "cosmosqa_accuracy": 0.62,
+        "openbookqa_accuracy": 0.617,
+        "sciq_accuracy": 0.8303303303303303,
+        "hellaswag_accuracy": 0.644,
+        "race_accuracy": 0.628,
+        "macro_accuracy": 0.6678660660660661,
+        "worst_domain_accuracy": 0.617
+      },
+      "common_start_tensor_sha256": "98591fcf91fa66b22df61404debf2bd3fbe62bb3edfa73cd5bec888c526470e5",
+      "global_after_tensor_sha256": "efbcf1cf6f575f8f49c6aa6cdb6bb10e447b2832ecc9a30e34def977ebe68741",
+      "weights": {
+        "cosmosqa": 0.2,
+        "openbookqa": 0.2,
+        "sciq": 0.2,
+        "hellaswag": 0.2,
+        "race": 0.2
+      },
+      "clients": {
+        "cosmosqa": {
+          "train_loss": 0.3004443005052563,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "openbookqa": {
+          "train_loss": 0.30242533453187936,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "sciq": {
+          "train_loss": 0.15428251299682505,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "hellaswag": {
+          "train_loss": 0.26172412615164287,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "race": {
+          "train_loss": 0.36633413831649525,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      }
+    },
+    {
+      "round": 6,
+      "global_before": {
+        "cosmosqa_accuracy": 0.62,
+        "openbookqa_accuracy": 0.617,
+        "sciq_accuracy": 0.8303303303303303,
+        "hellaswag_accuracy": 0.644,
+        "race_accuracy": 0.628,
+        "macro_accuracy": 0.6678660660660661,
+        "worst_domain_accuracy": 0.617
+      },
+      "local_after": {
+        "cosmosqa_accuracy": 0.6806666666666666,
+        "openbookqa_accuracy": 0.707,
+        "sciq_accuracy": 0.8603603603603603,
+        "hellaswag_accuracy": 0.7866666666666666,
+        "race_accuracy": 0.6693333333333333
+      },
+      "global_after": {
+        "cosmosqa_accuracy": 0.6206666666666667,
+        "openbookqa_accuracy": 0.623,
+        "sciq_accuracy": 0.8363363363363363,
+        "hellaswag_accuracy": 0.6546666666666666,
+        "race_accuracy": 0.628,
+        "macro_accuracy": 0.6725339339339339,
+        "worst_domain_accuracy": 0.6206666666666667
+      },
+      "common_start_tensor_sha256": "efbcf1cf6f575f8f49c6aa6cdb6bb10e447b2832ecc9a30e34def977ebe68741",
+      "global_after_tensor_sha256": "953228e087c9f6fd9a203b5cf93d9f04929ec9afd13a7ae63bf97c3c441a98cf",
+      "weights": {
+        "cosmosqa": 0.2,
+        "openbookqa": 0.2,
+        "sciq": 0.2,
+        "hellaswag": 0.2,
+        "race": 0.2
+      },
+      "clients": {
+        "cosmosqa": {
+          "train_loss": 0.26892217137838453,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "openbookqa": {
+          "train_loss": 0.2720563472090689,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "sciq": {
+          "train_loss": 0.1352718155446064,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "hellaswag": {
+          "train_loss": 0.22800465106252887,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "race": {
+          "train_loss": 0.34025599799539485,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      }
+    },
+    {
+      "round": 7,
+      "global_before": {
+        "cosmosqa_accuracy": 0.6206666666666667,
+        "openbookqa_accuracy": 0.623,
+        "sciq_accuracy": 0.8363363363363363,
+        "hellaswag_accuracy": 0.6546666666666666,
+        "race_accuracy": 0.628,
+        "macro_accuracy": 0.6725339339339339,
+        "worst_domain_accuracy": 0.6206666666666667
+      },
+      "local_after": {
+        "cosmosqa_accuracy": 0.644,
+        "openbookqa_accuracy": 0.711,
+        "sciq_accuracy": 0.8493493493493494,
+        "hellaswag_accuracy": 0.776,
+        "race_accuracy": 0.6733333333333333
+      },
+      "global_after": {
+        "cosmosqa_accuracy": 0.636,
+        "openbookqa_accuracy": 0.636,
+        "sciq_accuracy": 0.8353353353353353,
+        "hellaswag_accuracy": 0.6586666666666666,
+        "race_accuracy": 0.6453333333333333,
+        "macro_accuracy": 0.6822670670670671,
+        "worst_domain_accuracy": 0.636
+      },
+      "common_start_tensor_sha256": "953228e087c9f6fd9a203b5cf93d9f04929ec9afd13a7ae63bf97c3c441a98cf",
+      "global_after_tensor_sha256": "63c93303602b25aacbfbeae841274d8db07629cf647cd64c8048ed04dac23506",
+      "weights": {
+        "cosmosqa": 0.2,
+        "openbookqa": 0.2,
+        "sciq": 0.2,
+        "hellaswag": 0.2,
+        "race": 0.2
+      },
+      "clients": {
+        "cosmosqa": {
+          "train_loss": 0.2448012248361083,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "openbookqa": {
+          "train_loss": 0.24918951031253891,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "sciq": {
+          "train_loss": 0.11736235811255301,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "hellaswag": {
+          "train_loss": 0.2067166555405247,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "race": {
+          "train_loss": 0.3160792232326785,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      }
+    },
+    {
+      "round": 8,
+      "global_before": {
+        "cosmosqa_accuracy": 0.636,
+        "openbookqa_accuracy": 0.636,
+        "sciq_accuracy": 0.8353353353353353,
+        "hellaswag_accuracy": 0.6586666666666666,
+        "race_accuracy": 0.6453333333333333,
+        "macro_accuracy": 0.6822670670670671,
+        "worst_domain_accuracy": 0.636
+      },
+      "local_after": {
+        "cosmosqa_accuracy": 0.6646666666666666,
+        "openbookqa_accuracy": 0.693,
+        "sciq_accuracy": 0.8503503503503503,
+        "hellaswag_accuracy": 0.782,
+        "race_accuracy": 0.6786666666666666
+      },
+      "global_after": {
+        "cosmosqa_accuracy": 0.64,
+        "openbookqa_accuracy": 0.641,
+        "sciq_accuracy": 0.8323323323323323,
+        "hellaswag_accuracy": 0.6686666666666666,
+        "race_accuracy": 0.648,
+        "macro_accuracy": 0.6859997997997997,
+        "worst_domain_accuracy": 0.64
+      },
+      "common_start_tensor_sha256": "63c93303602b25aacbfbeae841274d8db07629cf647cd64c8048ed04dac23506",
+      "global_after_tensor_sha256": "28728463ec37199ef1b895751cae10cad178135416c2fec34a1d7e5ae6d64614",
+      "weights": {
+        "cosmosqa": 0.2,
+        "openbookqa": 0.2,
+        "sciq": 0.2,
+        "hellaswag": 0.2,
+        "race": 0.2
+      },
+      "clients": {
+        "cosmosqa": {
+          "train_loss": 0.22209611015785413,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "openbookqa": {
+          "train_loss": 0.224530362999413,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "sciq": {
+          "train_loss": 0.10541013372758698,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "hellaswag": {
+          "train_loss": 0.19081779617659594,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "race": {
+          "train_loss": 0.2887492851511415,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      }
+    },
+    {
+      "round": 9,
+      "global_before": {
+        "cosmosqa_accuracy": 0.64,
+        "openbookqa_accuracy": 0.641,
+        "sciq_accuracy": 0.8323323323323323,
+        "hellaswag_accuracy": 0.6686666666666666,
+        "race_accuracy": 0.648,
+        "macro_accuracy": 0.6859997997997997,
+        "worst_domain_accuracy": 0.64
+      },
+      "local_after": {
+        "cosmosqa_accuracy": 0.6446666666666667,
+        "openbookqa_accuracy": 0.704,
+        "sciq_accuracy": 0.8483483483483484,
+        "hellaswag_accuracy": 0.77,
+        "race_accuracy": 0.6706666666666666
+      },
+      "global_after": {
+        "cosmosqa_accuracy": 0.632,
+        "openbookqa_accuracy": 0.65,
+        "sciq_accuracy": 0.8363363363363363,
+        "hellaswag_accuracy": 0.6813333333333333,
+        "race_accuracy": 0.6393333333333333,
+        "macro_accuracy": 0.6878006006006006,
+        "worst_domain_accuracy": 0.632
+      },
+      "common_start_tensor_sha256": "28728463ec37199ef1b895751cae10cad178135416c2fec34a1d7e5ae6d64614",
+      "global_after_tensor_sha256": "6e04a38c2b03183b670ac1e9680c144f1e29445bc42be528afa594a0920c91d6",
+      "weights": {
+        "cosmosqa": 0.2,
+        "openbookqa": 0.2,
+        "sciq": 0.2,
+        "hellaswag": 0.2,
+        "race": 0.2
+      },
+      "clients": {
+        "cosmosqa": {
+          "train_loss": 0.20784309351688535,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "openbookqa": {
+          "train_loss": 0.20744482628870672,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "sciq": {
+          "train_loss": 0.08898990670394505,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "hellaswag": {
+          "train_loss": 0.1673945990446955,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "race": {
+          "train_loss": 0.2696958909047498,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      }
+    },
+    {
+      "round": 10,
+      "global_before": {
+        "cosmosqa_accuracy": 0.632,
+        "openbookqa_accuracy": 0.65,
+        "sciq_accuracy": 0.8363363363363363,
+        "hellaswag_accuracy": 0.6813333333333333,
+        "race_accuracy": 0.6393333333333333,
+        "macro_accuracy": 0.6878006006006006,
+        "worst_domain_accuracy": 0.632
+      },
+      "local_after": {
+        "cosmosqa_accuracy": 0.6573333333333333,
+        "openbookqa_accuracy": 0.703,
+        "sciq_accuracy": 0.8508508508508509,
+        "hellaswag_accuracy": 0.7726666666666666,
+        "race_accuracy": 0.6666666666666666
+      },
+      "global_after": {
+        "cosmosqa_accuracy": 0.6366666666666667,
+        "openbookqa_accuracy": 0.652,
+        "sciq_accuracy": 0.8323323323323323,
+        "hellaswag_accuracy": 0.698,
+        "race_accuracy": 0.6493333333333333,
+        "macro_accuracy": 0.6936664664664665,
+        "worst_domain_accuracy": 0.6366666666666667
+      },
+      "common_start_tensor_sha256": "6e04a38c2b03183b670ac1e9680c144f1e29445bc42be528afa594a0920c91d6",
+      "global_after_tensor_sha256": "d21b6a78db10f1b3b3265e5eeedda72d02148b9ced8d648ee061f030ac323cd6",
+      "weights": {
+        "cosmosqa": 0.2,
+        "openbookqa": 0.2,
+        "sciq": 0.2,
+        "hellaswag": 0.2,
+        "race": 0.2
+      },
+      "clients": {
+        "cosmosqa": {
+          "train_loss": 0.18434156736265322,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "openbookqa": {
+          "train_loss": 0.18620178983404184,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "sciq": {
+          "train_loss": 0.07718150571574842,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "hellaswag": {
+          "train_loss": 0.14882746538307828,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "race": {
+          "train_loss": 0.24219650721269137,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      }
+    },
+    {
+      "round": 11,
+      "global_before": {
+        "cosmosqa_accuracy": 0.6366666666666667,
+        "openbookqa_accuracy": 0.652,
+        "sciq_accuracy": 0.8323323323323323,
+        "hellaswag_accuracy": 0.698,
+        "race_accuracy": 0.6493333333333333,
+        "macro_accuracy": 0.6936664664664665,
+        "worst_domain_accuracy": 0.6366666666666667
+      },
+      "local_after": {
+        "cosmosqa_accuracy": 0.6686666666666666,
+        "openbookqa_accuracy": 0.674,
+        "sciq_accuracy": 0.8508508508508509,
+        "hellaswag_accuracy": 0.7786666666666666,
+        "race_accuracy": 0.6733333333333333
+      },
+      "global_after": {
+        "cosmosqa_accuracy": 0.6533333333333333,
+        "openbookqa_accuracy": 0.647,
+        "sciq_accuracy": 0.8273273273273273,
+        "hellaswag_accuracy": 0.6813333333333333,
+        "race_accuracy": 0.656,
+        "macro_accuracy": 0.6929987987987988,
+        "worst_domain_accuracy": 0.647
+      },
+      "common_start_tensor_sha256": "d21b6a78db10f1b3b3265e5eeedda72d02148b9ced8d648ee061f030ac323cd6",
+      "global_after_tensor_sha256": "2ec49b9c2c0a73ec8eec4db8816ea1535b69f55cb0cbff32c5229cd09397fe88",
+      "weights": {
+        "cosmosqa": 0.2,
+        "openbookqa": 0.2,
+        "sciq": 0.2,
+        "hellaswag": 0.2,
+        "race": 0.2
+      },
+      "clients": {
+        "cosmosqa": {
+          "train_loss": 0.17014982828776784,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "openbookqa": {
+          "train_loss": 0.16774532680272433,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "sciq": {
+          "train_loss": 0.07038471505344955,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "hellaswag": {
+          "train_loss": 0.12850211926293492,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "race": {
+          "train_loss": 0.22450405594857328,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      }
+    },
+    {
+      "round": 12,
+      "global_before": {
+        "cosmosqa_accuracy": 0.6533333333333333,
+        "openbookqa_accuracy": 0.647,
+        "sciq_accuracy": 0.8273273273273273,
+        "hellaswag_accuracy": 0.6813333333333333,
+        "race_accuracy": 0.656,
+        "macro_accuracy": 0.6929987987987988,
+        "worst_domain_accuracy": 0.647
+      },
+      "local_after": {
+        "cosmosqa_accuracy": 0.6673333333333333,
+        "openbookqa_accuracy": 0.683,
+        "sciq_accuracy": 0.8438438438438438,
+        "hellaswag_accuracy": 0.78,
+        "race_accuracy": 0.6733333333333333
+      },
+      "global_after": {
+        "cosmosqa_accuracy": 0.6613333333333333,
+        "openbookqa_accuracy": 0.655,
+        "sciq_accuracy": 0.8283283283283284,
+        "hellaswag_accuracy": 0.6806666666666666,
+        "race_accuracy": 0.656,
+        "macro_accuracy": 0.6962656656656657,
+        "worst_domain_accuracy": 0.655
+      },
+      "common_start_tensor_sha256": "2ec49b9c2c0a73ec8eec4db8816ea1535b69f55cb0cbff32c5229cd09397fe88",
+      "global_after_tensor_sha256": "32d46996602fa375014cfd3f57f949c74f31e4910f69a57f940e8e2c92e3eca0",
+      "weights": {
+        "cosmosqa": 0.2,
+        "openbookqa": 0.2,
+        "sciq": 0.2,
+        "hellaswag": 0.2,
+        "race": 0.2
+      },
+      "clients": {
+        "cosmosqa": {
+          "train_loss": 0.1537212851163285,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "openbookqa": {
+          "train_loss": 0.1513733990118858,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "sciq": {
+          "train_loss": 0.06363386231182105,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "hellaswag": {
+          "train_loss": 0.12171863583370941,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "race": {
+          "train_loss": 0.20648495562158858,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      }
+    },
+    {
+      "round": 13,
+      "global_before": {
+        "cosmosqa_accuracy": 0.6613333333333333,
+        "openbookqa_accuracy": 0.655,
+        "sciq_accuracy": 0.8283283283283284,
+        "hellaswag_accuracy": 0.6806666666666666,
+        "race_accuracy": 0.656,
+        "macro_accuracy": 0.6962656656656657,
+        "worst_domain_accuracy": 0.655
+      },
+      "local_after": {
+        "cosmosqa_accuracy": 0.6533333333333333,
+        "openbookqa_accuracy": 0.706,
+        "sciq_accuracy": 0.8313313313313313,
+        "hellaswag_accuracy": 0.7706666666666667,
+        "race_accuracy": 0.6673333333333333
+      },
+      "global_after": {
+        "cosmosqa_accuracy": 0.6513333333333333,
+        "openbookqa_accuracy": 0.653,
+        "sciq_accuracy": 0.8278278278278278,
+        "hellaswag_accuracy": 0.6993333333333334,
+        "race_accuracy": 0.6593333333333333,
+        "macro_accuracy": 0.6981655655655656,
+        "worst_domain_accuracy": 0.6513333333333333
+      },
+      "common_start_tensor_sha256": "32d46996602fa375014cfd3f57f949c74f31e4910f69a57f940e8e2c92e3eca0",
+      "global_after_tensor_sha256": "8b1b1ec6c281bede6ec4dcd87c3616339dd637ab9ba3ad7c970670ac6eed7b45",
+      "weights": {
+        "cosmosqa": 0.2,
+        "openbookqa": 0.2,
+        "sciq": 0.2,
+        "hellaswag": 0.2,
+        "race": 0.2
+      },
+      "clients": {
+        "cosmosqa": {
+          "train_loss": 0.13830012990507248,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "openbookqa": {
+          "train_loss": 0.12944966340050632,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "sciq": {
+          "train_loss": 0.05831489051942049,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "hellaswag": {
+          "train_loss": 0.1114040279111041,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "race": {
+          "train_loss": 0.17912942742854784,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      }
+    },
+    {
+      "round": 14,
+      "global_before": {
+        "cosmosqa_accuracy": 0.6513333333333333,
+        "openbookqa_accuracy": 0.653,
+        "sciq_accuracy": 0.8278278278278278,
+        "hellaswag_accuracy": 0.6993333333333334,
+        "race_accuracy": 0.6593333333333333,
+        "macro_accuracy": 0.6981655655655656,
+        "worst_domain_accuracy": 0.6513333333333333
+      },
+      "local_after": {
+        "cosmosqa_accuracy": 0.6686666666666666,
+        "openbookqa_accuracy": 0.7,
+        "sciq_accuracy": 0.8498498498498499,
+        "hellaswag_accuracy": 0.7633333333333333,
+        "race_accuracy": 0.666
+      },
+      "global_after": {
+        "cosmosqa_accuracy": 0.656,
+        "openbookqa_accuracy": 0.648,
+        "sciq_accuracy": 0.8248248248248248,
+        "hellaswag_accuracy": 0.704,
+        "race_accuracy": 0.65,
+        "macro_accuracy": 0.696564964964965,
+        "worst_domain_accuracy": 0.648
+      },
+      "common_start_tensor_sha256": "8b1b1ec6c281bede6ec4dcd87c3616339dd637ab9ba3ad7c970670ac6eed7b45",
+      "global_after_tensor_sha256": "94e3315ca24a4acab89902baf3e187bb303e557c7ae58ae24943a22220d8898e",
+      "weights": {
+        "cosmosqa": 0.2,
+        "openbookqa": 0.2,
+        "sciq": 0.2,
+        "hellaswag": 0.2,
+        "race": 0.2
+      },
+      "clients": {
+        "cosmosqa": {
+          "train_loss": 0.12475341125455748,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "openbookqa": {
+          "train_loss": 0.12085515742897018,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "sciq": {
+          "train_loss": 0.04810508435029271,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "hellaswag": {
+          "train_loss": 0.09756146762270355,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "race": {
+          "train_loss": 0.17010471457780021,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      }
+    },
+    {
+      "round": 15,
+      "global_before": {
+        "cosmosqa_accuracy": 0.656,
+        "openbookqa_accuracy": 0.648,
+        "sciq_accuracy": 0.8248248248248248,
+        "hellaswag_accuracy": 0.704,
+        "race_accuracy": 0.65,
+        "macro_accuracy": 0.696564964964965,
+        "worst_domain_accuracy": 0.648
+      },
+      "local_after": {
+        "cosmosqa_accuracy": 0.6726666666666666,
+        "openbookqa_accuracy": 0.693,
+        "sciq_accuracy": 0.8388388388388388,
+        "hellaswag_accuracy": 0.756,
+        "race_accuracy": 0.6733333333333333
+      },
+      "global_after": {
+        "cosmosqa_accuracy": 0.6606666666666666,
+        "openbookqa_accuracy": 0.641,
+        "sciq_accuracy": 0.8283283283283284,
+        "hellaswag_accuracy": 0.7273333333333334,
+        "race_accuracy": 0.648,
+        "macro_accuracy": 0.7010656656656657,
+        "worst_domain_accuracy": 0.641
+      },
+      "common_start_tensor_sha256": "94e3315ca24a4acab89902baf3e187bb303e557c7ae58ae24943a22220d8898e",
+      "global_after_tensor_sha256": "10698378a57e9e062b031d2f008ae67262b5f82ee2d78f4a890785b9b3098c3f",
+      "weights": {
+        "cosmosqa": 0.2,
+        "openbookqa": 0.2,
+        "sciq": 0.2,
+        "hellaswag": 0.2,
+        "race": 0.2
+      },
+      "clients": {
+        "cosmosqa": {
+          "train_loss": 0.11654287676387264,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "openbookqa": {
+          "train_loss": 0.11006592303151495,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "sciq": {
+          "train_loss": 0.04577361951199668,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "hellaswag": {
+          "train_loss": 0.08812676133802108,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "race": {
+          "train_loss": 0.15939206799345493,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      }
+    },
+    {
+      "round": 16,
+      "global_before": {
+        "cosmosqa_accuracy": 0.6606666666666666,
+        "openbookqa_accuracy": 0.641,
+        "sciq_accuracy": 0.8283283283283284,
+        "hellaswag_accuracy": 0.7273333333333334,
+        "race_accuracy": 0.648,
+        "macro_accuracy": 0.7010656656656657,
+        "worst_domain_accuracy": 0.641
+      },
+      "local_after": {
+        "cosmosqa_accuracy": 0.6566666666666666,
+        "openbookqa_accuracy": 0.701,
+        "sciq_accuracy": 0.8363363363363363,
+        "hellaswag_accuracy": 0.7686666666666667,
+        "race_accuracy": 0.674
+      },
+      "global_after": {
+        "cosmosqa_accuracy": 0.6606666666666666,
+        "openbookqa_accuracy": 0.649,
+        "sciq_accuracy": 0.8258258258258259,
+        "hellaswag_accuracy": 0.7126666666666667,
+        "race_accuracy": 0.6486666666666666,
+        "macro_accuracy": 0.6993651651651651,
+        "worst_domain_accuracy": 0.6486666666666666
+      },
+      "common_start_tensor_sha256": "10698378a57e9e062b031d2f008ae67262b5f82ee2d78f4a890785b9b3098c3f",
+      "global_after_tensor_sha256": "6bb16f872a70cfa6d5aa78845b0c34ce2b37f3b9edcf9e7227efc765bc6c39c6",
+      "weights": {
+        "cosmosqa": 0.2,
+        "openbookqa": 0.2,
+        "sciq": 0.2,
+        "hellaswag": 0.2,
+        "race": 0.2
+      },
+      "clients": {
+        "cosmosqa": {
+          "train_loss": 0.10114487445708084,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "openbookqa": {
+          "train_loss": 0.10401726549532578,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "sciq": {
+          "train_loss": 0.045977048362010074,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "hellaswag": {
+          "train_loss": 0.07960258233899162,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "race": {
+          "train_loss": 0.1390085942472415,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      }
+    },
+    {
+      "round": 17,
+      "global_before": {
+        "cosmosqa_accuracy": 0.6606666666666666,
+        "openbookqa_accuracy": 0.649,
+        "sciq_accuracy": 0.8258258258258259,
+        "hellaswag_accuracy": 0.7126666666666667,
+        "race_accuracy": 0.6486666666666666,
+        "macro_accuracy": 0.6993651651651651,
+        "worst_domain_accuracy": 0.6486666666666666
+      },
+      "local_after": {
+        "cosmosqa_accuracy": 0.6733333333333333,
+        "openbookqa_accuracy": 0.696,
+        "sciq_accuracy": 0.8468468468468469,
+        "hellaswag_accuracy": 0.76,
+        "race_accuracy": 0.6586666666666666
+      },
+      "global_after": {
+        "cosmosqa_accuracy": 0.6526666666666666,
+        "openbookqa_accuracy": 0.653,
+        "sciq_accuracy": 0.8238238238238238,
+        "hellaswag_accuracy": 0.6986666666666667,
+        "race_accuracy": 0.6446666666666667,
+        "macro_accuracy": 0.6945647647647648,
+        "worst_domain_accuracy": 0.6446666666666667
+      },
+      "common_start_tensor_sha256": "6bb16f872a70cfa6d5aa78845b0c34ce2b37f3b9edcf9e7227efc765bc6c39c6",
+      "global_after_tensor_sha256": "2afdcabf15ddc79d012c149b63aa86bd4a0a3277096ed97a69ac46550e67b84b",
+      "weights": {
+        "cosmosqa": 0.2,
+        "openbookqa": 0.2,
+        "sciq": 0.2,
+        "hellaswag": 0.2,
+        "race": 0.2
+      },
+      "clients": {
+        "cosmosqa": {
+          "train_loss": 0.0982567826486852,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "openbookqa": {
+          "train_loss": 0.09489450998350793,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "sciq": {
+          "train_loss": 0.04560009332635741,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "hellaswag": {
+          "train_loss": 0.07425083979134675,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "race": {
+          "train_loss": 0.1315073656853351,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      }
+    },
+    {
+      "round": 18,
+      "global_before": {
+        "cosmosqa_accuracy": 0.6526666666666666,
+        "openbookqa_accuracy": 0.653,
+        "sciq_accuracy": 0.8238238238238238,
+        "hellaswag_accuracy": 0.6986666666666667,
+        "race_accuracy": 0.6446666666666667,
+        "macro_accuracy": 0.6945647647647648,
+        "worst_domain_accuracy": 0.6446666666666667
+      },
+      "local_after": {
+        "cosmosqa_accuracy": 0.664,
+        "openbookqa_accuracy": 0.706,
+        "sciq_accuracy": 0.8458458458458459,
+        "hellaswag_accuracy": 0.7693333333333333,
+        "race_accuracy": 0.6626666666666666
+      },
+      "global_after": {
+        "cosmosqa_accuracy": 0.6506666666666666,
+        "openbookqa_accuracy": 0.639,
+        "sciq_accuracy": 0.8263263263263263,
+        "hellaswag_accuracy": 0.706,
+        "race_accuracy": 0.654,
+        "macro_accuracy": 0.6951985985985986,
+        "worst_domain_accuracy": 0.639
+      },
+      "common_start_tensor_sha256": "2afdcabf15ddc79d012c149b63aa86bd4a0a3277096ed97a69ac46550e67b84b",
+      "global_after_tensor_sha256": "bfe957b2fbf4c086ba4a6d5a9b2b25e26a9decf8178e7345bc6d026098d5e736",
+      "weights": {
+        "cosmosqa": 0.2,
+        "openbookqa": 0.2,
+        "sciq": 0.2,
+        "hellaswag": 0.2,
+        "race": 0.2
+      },
+      "clients": {
+        "cosmosqa": {
+          "train_loss": 0.08866252770534129,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "openbookqa": {
+          "train_loss": 0.08560834290880774,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "sciq": {
+          "train_loss": 0.03780766910828504,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "hellaswag": {
+          "train_loss": 0.06859768746371049,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "race": {
+          "train_loss": 0.11906414412019149,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      }
+    },
+    {
+      "round": 19,
+      "global_before": {
+        "cosmosqa_accuracy": 0.6506666666666666,
+        "openbookqa_accuracy": 0.639,
+        "sciq_accuracy": 0.8263263263263263,
+        "hellaswag_accuracy": 0.706,
+        "race_accuracy": 0.654,
+        "macro_accuracy": 0.6951985985985986,
+        "worst_domain_accuracy": 0.639
+      },
+      "local_after": {
+        "cosmosqa_accuracy": 0.65,
+        "openbookqa_accuracy": 0.682,
+        "sciq_accuracy": 0.8558558558558559,
+        "hellaswag_accuracy": 0.7666666666666667,
+        "race_accuracy": 0.6533333333333333
+      },
+      "global_after": {
+        "cosmosqa_accuracy": 0.656,
+        "openbookqa_accuracy": 0.649,
+        "sciq_accuracy": 0.8278278278278278,
+        "hellaswag_accuracy": 0.718,
+        "race_accuracy": 0.6493333333333333,
+        "macro_accuracy": 0.7000322322322322,
+        "worst_domain_accuracy": 0.649
+      },
+      "common_start_tensor_sha256": "bfe957b2fbf4c086ba4a6d5a9b2b25e26a9decf8178e7345bc6d026098d5e736",
+      "global_after_tensor_sha256": "bd0d98a2d6099e904a6dc43c16527c4ea87360119f2969377d47f92708c4d44b",
+      "weights": {
+        "cosmosqa": 0.2,
+        "openbookqa": 0.2,
+        "sciq": 0.2,
+        "hellaswag": 0.2,
+        "race": 0.2
+      },
+      "clients": {
+        "cosmosqa": {
+          "train_loss": 0.08229924301581809,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "openbookqa": {
+          "train_loss": 0.08101546534339797,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "sciq": {
+          "train_loss": 0.037696356032512084,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "hellaswag": {
+          "train_loss": 0.05348364570439435,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "race": {
+          "train_loss": 0.11586558343172533,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      }
+    },
+    {
+      "round": 20,
+      "global_before": {
+        "cosmosqa_accuracy": 0.656,
+        "openbookqa_accuracy": 0.649,
+        "sciq_accuracy": 0.8278278278278278,
+        "hellaswag_accuracy": 0.718,
+        "race_accuracy": 0.6493333333333333,
+        "macro_accuracy": 0.7000322322322322,
+        "worst_domain_accuracy": 0.649
+      },
+      "local_after": {
+        "cosmosqa_accuracy": 0.6706666666666666,
+        "openbookqa_accuracy": 0.698,
+        "sciq_accuracy": 0.8373373373373373,
+        "hellaswag_accuracy": 0.776,
+        "race_accuracy": 0.68
+      },
+      "global_after": {
+        "cosmosqa_accuracy": 0.648,
+        "openbookqa_accuracy": 0.655,
+        "sciq_accuracy": 0.8243243243243243,
+        "hellaswag_accuracy": 0.7213333333333334,
+        "race_accuracy": 0.6506666666666666,
+        "macro_accuracy": 0.6998648648648649,
+        "worst_domain_accuracy": 0.648
+      },
+      "common_start_tensor_sha256": "bd0d98a2d6099e904a6dc43c16527c4ea87360119f2969377d47f92708c4d44b",
+      "global_after_tensor_sha256": "46ea3068c2745240303f6a18bb2b0c93876e4c76323ee646d065748484692eb7",
+      "weights": {
+        "cosmosqa": 0.2,
+        "openbookqa": 0.2,
+        "sciq": 0.2,
+        "hellaswag": 0.2,
+        "race": 0.2
+      },
+      "clients": {
+        "cosmosqa": {
+          "train_loss": 0.0805233421069388,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "openbookqa": {
+          "train_loss": 0.06880391541608487,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "sciq": {
+          "train_loss": 0.03133440730866514,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "hellaswag": {
+          "train_loss": 0.0545139456492646,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "race": {
+          "train_loss": 0.10777194873946314,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      }
+    }
+  ],
+  "rows": [
+    {
+      "round": 1,
+      "dataset": "CosmosQA",
+      "global_before": 0.36666666666666664,
+      "local_after": 0.6106666666666667,
+      "global_after": 0.4726666666666667,
+      "local_gain": 0.24400000000000005,
+      "aggregation_gap": 0.138,
+      "global_gain": 0.10600000000000004,
+      "retention_ratio": 0.4344262295081968
+    },
+    {
+      "round": 1,
+      "dataset": "OpenBookQA",
+      "global_before": 0.405,
+      "local_after": 0.67,
+      "global_after": 0.5,
+      "local_gain": 0.265,
+      "aggregation_gap": 0.17000000000000004,
+      "global_gain": 0.09499999999999997,
+      "retention_ratio": 0.3584905660377357
+    },
+    {
+      "round": 1,
+      "dataset": "SciQ",
+      "global_before": 0.6601601601601602,
+      "local_after": 0.8388388388388388,
+      "global_after": 0.8123123123123123,
+      "local_gain": 0.1786786786786786,
+      "aggregation_gap": 0.02652652652652654,
+      "global_gain": 0.15215215215215205,
+      "retention_ratio": 0.8515406162464985
+    },
+    {
+      "round": 1,
+      "dataset": "HellaSwag",
+      "global_before": 0.28,
+      "local_after": 0.716,
+      "global_after": 0.37466666666666665,
+      "local_gain": 0.43599999999999994,
+      "aggregation_gap": 0.3413333333333333,
+      "global_gain": 0.09466666666666662,
+      "retention_ratio": 0.21712538226299685
+    },
+    {
+      "round": 1,
+      "dataset": "RACE",
+      "global_before": 0.4013333333333333,
+      "local_after": 0.5986666666666667,
+      "global_after": 0.514,
+      "local_gain": 0.19733333333333336,
+      "aggregation_gap": 0.08466666666666667,
+      "global_gain": 0.11266666666666669,
+      "retention_ratio": 0.570945945945946
+    },
+    {
+      "round": 2,
+      "dataset": "CosmosQA",
+      "global_before": 0.4726666666666667,
+      "local_after": 0.6386666666666667,
+      "global_after": 0.5506666666666666,
+      "local_gain": 0.16600000000000004,
+      "aggregation_gap": 0.08800000000000008,
+      "global_gain": 0.07799999999999996,
+      "retention_ratio": 0.4698795180722888
+    },
+    {
+      "round": 2,
+      "dataset": "OpenBookQA",
+      "global_before": 0.5,
+      "local_after": 0.656,
+      "global_after": 0.562,
+      "local_gain": 0.15600000000000003,
+      "aggregation_gap": 0.09399999999999997,
+      "global_gain": 0.062000000000000055,
+      "retention_ratio": 0.39743589743589774
+    },
+    {
+      "round": 2,
+      "dataset": "SciQ",
+      "global_before": 0.8123123123123123,
+      "local_after": 0.8378378378378378,
+      "global_after": 0.8173173173173173,
+      "local_gain": 0.02552552552552556,
+      "aggregation_gap": 0.020520520520520558,
+      "global_gain": 0.005005005005005003,
+      "retention_ratio": 0.19607843137254868
+    },
+    {
+      "round": 2,
+      "dataset": "HellaSwag",
+      "global_before": 0.37466666666666665,
+      "local_after": 0.748,
+      "global_after": 0.53,
+      "local_gain": 0.37333333333333335,
+      "aggregation_gap": 0.21799999999999997,
+      "global_gain": 0.15533333333333338,
+      "retention_ratio": 0.41607142857142865
+    },
+    {
+      "round": 2,
+      "dataset": "RACE",
+      "global_before": 0.514,
+      "local_after": 0.6386666666666667,
+      "global_after": 0.588,
+      "local_gain": 0.1246666666666667,
+      "aggregation_gap": 0.05066666666666675,
+      "global_gain": 0.07399999999999995,
+      "retention_ratio": 0.5935828877005342
+    },
+    {
+      "round": 3,
+      "dataset": "CosmosQA",
+      "global_before": 0.5506666666666666,
+      "local_after": 0.6586666666666666,
+      "global_after": 0.5913333333333334,
+      "local_gain": 0.10799999999999998,
+      "aggregation_gap": 0.06733333333333325,
+      "global_gain": 0.04066666666666674,
+      "retention_ratio": 0.37654320987654394
+    },
+    {
+      "round": 3,
+      "dataset": "OpenBookQA",
+      "global_before": 0.562,
+      "local_after": 0.684,
+      "global_after": 0.584,
+      "local_gain": 0.122,
+      "aggregation_gap": 0.10000000000000009,
+      "global_gain": 0.02199999999999991,
+      "retention_ratio": 0.18032786885245827
+    },
+    {
+      "round": 3,
+      "dataset": "SciQ",
+      "global_before": 0.8173173173173173,
+      "local_after": 0.8343343343343343,
+      "global_after": 0.8293293293293293,
+      "local_gain": 0.017017017017017078,
+      "aggregation_gap": 0.005005005005005003,
+      "global_gain": 0.012012012012012074,
+      "retention_ratio": 0.7058823529411776
+    },
+    {
+      "round": 3,
+      "dataset": "HellaSwag",
+      "global_before": 0.53,
+      "local_after": 0.7546666666666667,
+      "global_after": 0.6093333333333333,
+      "local_gain": 0.22466666666666668,
+      "aggregation_gap": 0.14533333333333343,
+      "global_gain": 0.07933333333333326,
+      "retention_ratio": 0.353115727002967
+    },
+    {
+      "round": 3,
+      "dataset": "RACE",
+      "global_before": 0.588,
+      "local_after": 0.6493333333333333,
+      "global_after": 0.6026666666666667,
+      "local_gain": 0.06133333333333335,
+      "aggregation_gap": 0.046666666666666634,
+      "global_gain": 0.014666666666666717,
+      "retention_ratio": 0.23913043478260945
+    },
+    {
+      "round": 4,
+      "dataset": "CosmosQA",
+      "global_before": 0.5913333333333334,
+      "local_after": 0.668,
+      "global_after": 0.6126666666666667,
+      "local_gain": 0.07666666666666666,
+      "aggregation_gap": 0.055333333333333345,
+      "global_gain": 0.021333333333333315,
+      "retention_ratio": 0.2782608695652172
+    },
+    {
+      "round": 4,
+      "dataset": "OpenBookQA",
+      "global_before": 0.584,
+      "local_after": 0.695,
+      "global_after": 0.613,
+      "local_gain": 0.11099999999999999,
+      "aggregation_gap": 0.08199999999999996,
+      "global_gain": 0.029000000000000026,
+      "retention_ratio": 0.26126126126126153
+    },
+    {
+      "round": 4,
+      "dataset": "SciQ",
+      "global_before": 0.8293293293293293,
+      "local_after": 0.8513513513513513,
+      "global_after": 0.8263263263263263,
+      "local_gain": 0.02202202202202197,
+      "aggregation_gap": 0.025025025025025016,
+      "global_gain": -0.0030030030030030463,
+      "retention_ratio": -0.13636363636363866
+    },
+    {
+      "round": 4,
+      "dataset": "HellaSwag",
+      "global_before": 0.6093333333333333,
+      "local_after": 0.7806666666666666,
+      "global_after": 0.624,
+      "local_gain": 0.17133333333333334,
+      "aggregation_gap": 0.15666666666666662,
+      "global_gain": 0.014666666666666717,
+      "retention_ratio": 0.08560311284046722
+    },
+    {
+      "round": 4,
+      "dataset": "RACE",
+      "global_before": 0.6026666666666667,
+      "local_after": 0.656,
+      "global_after": 0.6126666666666667,
+      "local_gain": 0.053333333333333344,
+      "aggregation_gap": 0.043333333333333335,
+      "global_gain": 0.010000000000000009,
+      "retention_ratio": 0.18750000000000014
+    },
+    {
+      "round": 5,
+      "dataset": "CosmosQA",
+      "global_before": 0.6126666666666667,
+      "local_after": 0.6786666666666666,
+      "global_after": 0.62,
+      "local_gain": 0.06599999999999995,
+      "aggregation_gap": 0.058666666666666645,
+      "global_gain": 0.007333333333333303,
+      "retention_ratio": 0.11111111111111074
+    },
+    {
+      "round": 5,
+      "dataset": "OpenBookQA",
+      "global_before": 0.613,
+      "local_after": 0.685,
+      "global_after": 0.617,
+      "local_gain": 0.07200000000000006,
+      "aggregation_gap": 0.06800000000000006,
+      "global_gain": 0.0040000000000000036,
+      "retention_ratio": 0.05555555555555555
+    },
+    {
+      "round": 5,
+      "dataset": "SciQ",
+      "global_before": 0.8263263263263263,
+      "local_after": 0.8463463463463463,
+      "global_after": 0.8303303303303303,
+      "local_gain": 0.020020020020020013,
+      "aggregation_gap": 0.016016016016015988,
+      "global_gain": 0.004004004004004025,
+      "retention_ratio": 0.20000000000000112
+    },
+    {
+      "round": 5,
+      "dataset": "HellaSwag",
+      "global_before": 0.624,
+      "local_after": 0.7773333333333333,
+      "global_after": 0.644,
+      "local_gain": 0.15333333333333332,
+      "aggregation_gap": 0.1333333333333333,
+      "global_gain": 0.020000000000000018,
+      "retention_ratio": 0.1304347826086958
+    },
+    {
+      "round": 5,
+      "dataset": "RACE",
+      "global_before": 0.6126666666666667,
+      "local_after": 0.664,
+      "global_after": 0.628,
+      "local_gain": 0.05133333333333334,
+      "aggregation_gap": 0.03600000000000003,
+      "global_gain": 0.01533333333333331,
+      "retention_ratio": 0.2987012987012982
+    },
+    {
+      "round": 6,
+      "dataset": "CosmosQA",
+      "global_before": 0.62,
+      "local_after": 0.6806666666666666,
+      "global_after": 0.6206666666666667,
+      "local_gain": 0.06066666666666665,
+      "aggregation_gap": 0.05999999999999994,
+      "global_gain": 0.0006666666666667043,
+      "retention_ratio": 0.010989010989011613
+    },
+    {
+      "round": 6,
+      "dataset": "OpenBookQA",
+      "global_before": 0.617,
+      "local_after": 0.707,
+      "global_after": 0.623,
+      "local_gain": 0.08999999999999997,
+      "aggregation_gap": 0.08399999999999996,
+      "global_gain": 0.006000000000000005,
+      "retention_ratio": 0.06666666666666675
+    },
+    {
+      "round": 6,
+      "dataset": "SciQ",
+      "global_before": 0.8303303303303303,
+      "local_after": 0.8603603603603603,
+      "global_after": 0.8363363363363363,
+      "local_gain": 0.03003003003003002,
+      "aggregation_gap": 0.024024024024024038,
+      "global_gain": 0.006006006006005982,
+      "retention_ratio": 0.19999999999999926
+    },
+    {
+      "round": 6,
+      "dataset": "HellaSwag",
+      "global_before": 0.644,
+      "local_after": 0.7866666666666666,
+      "global_after": 0.6546666666666666,
+      "local_gain": 0.1426666666666666,
+      "aggregation_gap": 0.132,
+      "global_gain": 0.010666666666666602,
+      "retention_ratio": 0.0747663551401865
+    },
+    {
+      "round": 6,
+      "dataset": "RACE",
+      "global_before": 0.628,
+      "local_after": 0.6693333333333333,
+      "global_after": 0.628,
+      "local_gain": 0.04133333333333333,
+      "aggregation_gap": 0.04133333333333333,
+      "global_gain": 0.0,
+      "retention_ratio": 0.0
+    },
+    {
+      "round": 7,
+      "dataset": "CosmosQA",
+      "global_before": 0.6206666666666667,
+      "local_after": 0.644,
+      "global_after": 0.636,
+      "local_gain": 0.023333333333333317,
+      "aggregation_gap": 0.008000000000000007,
+      "global_gain": 0.01533333333333331,
+      "retention_ratio": 0.6571428571428566
+    },
+    {
+      "round": 7,
+      "dataset": "OpenBookQA",
+      "global_before": 0.623,
+      "local_after": 0.711,
+      "global_after": 0.636,
+      "local_gain": 0.08799999999999997,
+      "aggregation_gap": 0.07499999999999996,
+      "global_gain": 0.013000000000000012,
+      "retention_ratio": 0.1477272727272729
+    },
+    {
+      "round": 7,
+      "dataset": "SciQ",
+      "global_before": 0.8363363363363363,
+      "local_after": 0.8493493493493494,
+      "global_after": 0.8353353353353353,
+      "local_gain": 0.013013013013013053,
+      "aggregation_gap": 0.014014014014014031,
+      "global_gain": -0.0010010010010009784,
+      "retention_ratio": -0.07692307692307496
+    },
+    {
+      "round": 7,
+      "dataset": "HellaSwag",
+      "global_before": 0.6546666666666666,
+      "local_after": 0.776,
+      "global_after": 0.6586666666666666,
+      "local_gain": 0.1213333333333334,
+      "aggregation_gap": 0.1173333333333334,
+      "global_gain": 0.0040000000000000036,
+      "retention_ratio": 0.032967032967032975
+    },
+    {
+      "round": 7,
+      "dataset": "RACE",
+      "global_before": 0.628,
+      "local_after": 0.6733333333333333,
+      "global_after": 0.6453333333333333,
+      "local_gain": 0.04533333333333334,
+      "aggregation_gap": 0.028000000000000025,
+      "global_gain": 0.01733333333333331,
+      "retention_ratio": 0.38235294117647006
+    },
+    {
+      "round": 8,
+      "dataset": "CosmosQA",
+      "global_before": 0.636,
+      "local_after": 0.6646666666666666,
+      "global_after": 0.64,
+      "local_gain": 0.028666666666666618,
+      "aggregation_gap": 0.024666666666666615,
+      "global_gain": 0.0040000000000000036,
+      "retention_ratio": 0.1395348837209306
+    },
+    {
+      "round": 8,
+      "dataset": "OpenBookQA",
+      "global_before": 0.636,
+      "local_after": 0.693,
+      "global_after": 0.641,
+      "local_gain": 0.05699999999999994,
+      "aggregation_gap": 0.051999999999999935,
+      "global_gain": 0.0050000000000000044,
+      "retention_ratio": 0.08771929824561421
+    },
+    {
+      "round": 8,
+      "dataset": "SciQ",
+      "global_before": 0.8353353353353353,
+      "local_after": 0.8503503503503503,
+      "global_after": 0.8323323323323323,
+      "local_gain": 0.01501501501501501,
+      "aggregation_gap": 0.018018018018018056,
+      "global_gain": -0.0030030030030030463,
+      "retention_ratio": -0.20000000000000295
+    },
+    {
+      "round": 8,
+      "dataset": "HellaSwag",
+      "global_before": 0.6586666666666666,
+      "local_after": 0.782,
+      "global_after": 0.6686666666666666,
+      "local_gain": 0.1233333333333334,
+      "aggregation_gap": 0.1133333333333334,
+      "global_gain": 0.010000000000000009,
+      "retention_ratio": 0.0810810810810811
+    },
+    {
+      "round": 8,
+      "dataset": "RACE",
+      "global_before": 0.6453333333333333,
+      "local_after": 0.6786666666666666,
+      "global_after": 0.648,
+      "local_gain": 0.033333333333333326,
+      "aggregation_gap": 0.03066666666666662,
+      "global_gain": 0.002666666666666706,
+      "retention_ratio": 0.0800000000000012
+    },
+    {
+      "round": 9,
+      "dataset": "CosmosQA",
+      "global_before": 0.64,
+      "local_after": 0.6446666666666667,
+      "global_after": 0.632,
+      "local_gain": 0.004666666666666708,
+      "aggregation_gap": 0.012666666666666715,
+      "global_gain": -0.008000000000000007,
+      "retention_ratio": -1.7142857142857006
+    },
+    {
+      "round": 9,
+      "dataset": "OpenBookQA",
+      "global_before": 0.641,
+      "local_after": 0.704,
+      "global_after": 0.65,
+      "local_gain": 0.06299999999999994,
+      "aggregation_gap": 0.05399999999999994,
+      "global_gain": 0.009000000000000008,
+      "retention_ratio": 0.1428571428571431
+    },
+    {
+      "round": 9,
+      "dataset": "SciQ",
+      "global_before": 0.8323323323323323,
+      "local_after": 0.8483483483483484,
+      "global_after": 0.8363363363363363,
+      "local_gain": 0.0160160160160161,
+      "aggregation_gap": 0.012012012012012074,
+      "global_gain": 0.004004004004004025,
+      "retention_ratio": 0.25
+    },
+    {
+      "round": 9,
+      "dataset": "HellaSwag",
+      "global_before": 0.6686666666666666,
+      "local_after": 0.77,
+      "global_after": 0.6813333333333333,
+      "local_gain": 0.10133333333333339,
+      "aggregation_gap": 0.08866666666666667,
+      "global_gain": 0.012666666666666715,
+      "retention_ratio": 0.12500000000000042
+    },
+    {
+      "round": 9,
+      "dataset": "RACE",
+      "global_before": 0.648,
+      "local_after": 0.6706666666666666,
+      "global_after": 0.6393333333333333,
+      "local_gain": 0.022666666666666613,
+      "aggregation_gap": 0.031333333333333324,
+      "global_gain": -0.008666666666666711,
+      "retention_ratio": -0.38235294117647345
+    },
+    {
+      "round": 10,
+      "dataset": "CosmosQA",
+      "global_before": 0.632,
+      "local_after": 0.6573333333333333,
+      "global_after": 0.6366666666666667,
+      "local_gain": 0.02533333333333332,
+      "aggregation_gap": 0.02066666666666661,
+      "global_gain": 0.004666666666666708,
+      "retention_ratio": 0.1842105263157912
+    },
+    {
+      "round": 10,
+      "dataset": "OpenBookQA",
+      "global_before": 0.65,
+      "local_after": 0.703,
+      "global_after": 0.652,
+      "local_gain": 0.052999999999999936,
+      "aggregation_gap": 0.050999999999999934,
+      "global_gain": 0.0020000000000000018,
+      "retention_ratio": 0.037735849056603855
+    },
+    {
+      "round": 10,
+      "dataset": "SciQ",
+      "global_before": 0.8363363363363363,
+      "local_after": 0.8508508508508509,
+      "global_after": 0.8323323323323323,
+      "local_gain": 0.014514514514514576,
+      "aggregation_gap": 0.0185185185185186,
+      "global_gain": -0.004004004004004025,
+      "retention_ratio": -0.2758620689655175
+    },
+    {
+      "round": 10,
+      "dataset": "HellaSwag",
+      "global_before": 0.6813333333333333,
+      "local_after": 0.7726666666666666,
+      "global_after": 0.698,
+      "local_gain": 0.09133333333333327,
+      "aggregation_gap": 0.07466666666666666,
+      "global_gain": 0.016666666666666607,
+      "retention_ratio": 0.182481751824817
+    },
+    {
+      "round": 10,
+      "dataset": "RACE",
+      "global_before": 0.6393333333333333,
+      "local_after": 0.6666666666666666,
+      "global_after": 0.6493333333333333,
+      "local_gain": 0.02733333333333332,
+      "aggregation_gap": 0.01733333333333331,
+      "global_gain": 0.010000000000000009,
+      "retention_ratio": 0.36585365853658586
+    },
+    {
+      "round": 11,
+      "dataset": "CosmosQA",
+      "global_before": 0.6366666666666667,
+      "local_after": 0.6686666666666666,
+      "global_after": 0.6533333333333333,
+      "local_gain": 0.03199999999999992,
+      "aggregation_gap": 0.01533333333333331,
+      "global_gain": 0.016666666666666607,
+      "retention_ratio": 0.5208333333333328
+    },
+    {
+      "round": 11,
+      "dataset": "OpenBookQA",
+      "global_before": 0.652,
+      "local_after": 0.674,
+      "global_after": 0.647,
+      "local_gain": 0.02200000000000002,
+      "aggregation_gap": 0.027000000000000024,
+      "global_gain": -0.0050000000000000044,
+      "retention_ratio": -0.22727272727272727
+    },
+    {
+      "round": 11,
+      "dataset": "SciQ",
+      "global_before": 0.8323323323323323,
+      "local_after": 0.8508508508508509,
+      "global_after": 0.8273273273273273,
+      "local_gain": 0.0185185185185186,
+      "aggregation_gap": 0.023523523523523604,
+      "global_gain": -0.005005005005005003,
+      "retention_ratio": -0.27027027027026895
+    },
+    {
+      "round": 11,
+      "dataset": "HellaSwag",
+      "global_before": 0.698,
+      "local_after": 0.7786666666666666,
+      "global_after": 0.6813333333333333,
+      "local_gain": 0.08066666666666666,
+      "aggregation_gap": 0.09733333333333327,
+      "global_gain": -0.016666666666666607,
+      "retention_ratio": -0.20661157024793317
+    },
+    {
+      "round": 11,
+      "dataset": "RACE",
+      "global_before": 0.6493333333333333,
+      "local_after": 0.6733333333333333,
+      "global_after": 0.656,
+      "local_gain": 0.02400000000000002,
+      "aggregation_gap": 0.01733333333333331,
+      "global_gain": 0.00666666666666671,
+      "retention_ratio": 0.27777777777777934
+    },
+    {
+      "round": 12,
+      "dataset": "CosmosQA",
+      "global_before": 0.6533333333333333,
+      "local_after": 0.6673333333333333,
+      "global_after": 0.6613333333333333,
+      "local_gain": 0.014000000000000012,
+      "aggregation_gap": 0.006000000000000005,
+      "global_gain": 0.008000000000000007,
+      "retention_ratio": 0.5714285714285714
+    },
+    {
+      "round": 12,
+      "dataset": "OpenBookQA",
+      "global_before": 0.647,
+      "local_after": 0.683,
+      "global_after": 0.655,
+      "local_gain": 0.03600000000000003,
+      "aggregation_gap": 0.028000000000000025,
+      "global_gain": 0.008000000000000007,
+      "retention_ratio": 0.2222222222222222
+    },
+    {
+      "round": 12,
+      "dataset": "SciQ",
+      "global_before": 0.8273273273273273,
+      "local_after": 0.8438438438438438,
+      "global_after": 0.8283283283283284,
+      "local_gain": 0.016516516516516533,
+      "aggregation_gap": 0.015515515515515443,
+      "global_gain": 0.0010010010010010895,
+      "retention_ratio": 0.0606060606060659
+    },
+    {
+      "round": 12,
+      "dataset": "HellaSwag",
+      "global_before": 0.6813333333333333,
+      "local_after": 0.78,
+      "global_after": 0.6806666666666666,
+      "local_gain": 0.09866666666666668,
+      "aggregation_gap": 0.09933333333333338,
+      "global_gain": -0.0006666666666667043,
+      "retention_ratio": -0.006756756756757137
+    },
+    {
+      "round": 12,
+      "dataset": "RACE",
+      "global_before": 0.656,
+      "local_after": 0.6733333333333333,
+      "global_after": 0.656,
+      "local_gain": 0.01733333333333331,
+      "aggregation_gap": 0.01733333333333331,
+      "global_gain": 0.0,
+      "retention_ratio": 0.0
+    },
+    {
+      "round": 13,
+      "dataset": "CosmosQA",
+      "global_before": 0.6613333333333333,
+      "local_after": 0.6533333333333333,
+      "global_after": 0.6513333333333333,
+      "local_gain": -0.008000000000000007,
+      "aggregation_gap": 0.0020000000000000018,
+      "global_gain": -0.010000000000000009,
+      "retention_ratio": null
+    },
+    {
+      "round": 13,
+      "dataset": "OpenBookQA",
+      "global_before": 0.655,
+      "local_after": 0.706,
+      "global_after": 0.653,
+      "local_gain": 0.050999999999999934,
+      "aggregation_gap": 0.052999999999999936,
+      "global_gain": -0.0020000000000000018,
+      "retention_ratio": -0.03921568627450989
+    },
+    {
+      "round": 13,
+      "dataset": "SciQ",
+      "global_before": 0.8283283283283284,
+      "local_after": 0.8313313313313313,
+      "global_after": 0.8278278278278278,
+      "local_gain": 0.0030030030030029353,
+      "aggregation_gap": 0.00350350350350348,
+      "global_gain": -0.0005005005005005447,
+      "retention_ratio": -0.16666666666668514
+    },
+    {
+      "round": 13,
+      "dataset": "HellaSwag",
+      "global_before": 0.6806666666666666,
+      "local_after": 0.7706666666666667,
+      "global_after": 0.6993333333333334,
+      "local_gain": 0.09000000000000008,
+      "aggregation_gap": 0.07133333333333336,
+      "global_gain": 0.01866666666666672,
+      "retention_ratio": 0.20740740740740782
+    },
+    {
+      "round": 13,
+      "dataset": "RACE",
+      "global_before": 0.656,
+      "local_after": 0.6673333333333333,
+      "global_after": 0.6593333333333333,
+      "local_gain": 0.011333333333333306,
+      "aggregation_gap": 0.008000000000000007,
+      "global_gain": 0.0033333333333332993,
+      "retention_ratio": 0.2941176470588212
+    },
+    {
+      "round": 14,
+      "dataset": "CosmosQA",
+      "global_before": 0.6513333333333333,
+      "local_after": 0.6686666666666666,
+      "global_after": 0.656,
+      "local_gain": 0.01733333333333331,
+      "aggregation_gap": 0.012666666666666604,
+      "global_gain": 0.004666666666666708,
+      "retention_ratio": 0.26923076923077194
+    },
+    {
+      "round": 14,
+      "dataset": "OpenBookQA",
+      "global_before": 0.653,
+      "local_after": 0.7,
+      "global_after": 0.648,
+      "local_gain": 0.04699999999999993,
+      "aggregation_gap": 0.051999999999999935,
+      "global_gain": -0.0050000000000000044,
+      "retention_ratio": -0.1063829787234045
+    },
+    {
+      "round": 14,
+      "dataset": "SciQ",
+      "global_before": 0.8278278278278278,
+      "local_after": 0.8498498498498499,
+      "global_after": 0.8248248248248248,
+      "local_gain": 0.02202202202202208,
+      "aggregation_gap": 0.025025025025025127,
+      "global_gain": -0.0030030030030030463,
+      "retention_ratio": -0.13636363636363796
+    },
+    {
+      "round": 14,
+      "dataset": "HellaSwag",
+      "global_before": 0.6993333333333334,
+      "local_after": 0.7633333333333333,
+      "global_after": 0.704,
+      "local_gain": 0.06399999999999995,
+      "aggregation_gap": 0.05933333333333335,
+      "global_gain": 0.004666666666666597,
+      "retention_ratio": 0.07291666666666563
+    },
+    {
+      "round": 14,
+      "dataset": "RACE",
+      "global_before": 0.6593333333333333,
+      "local_after": 0.666,
+      "global_after": 0.65,
+      "local_gain": 0.00666666666666671,
+      "aggregation_gap": 0.016000000000000014,
+      "global_gain": -0.009333333333333305,
+      "retention_ratio": -1.3999999999999866
+    },
+    {
+      "round": 15,
+      "dataset": "CosmosQA",
+      "global_before": 0.656,
+      "local_after": 0.6726666666666666,
+      "global_after": 0.6606666666666666,
+      "local_gain": 0.016666666666666607,
+      "aggregation_gap": 0.01200000000000001,
+      "global_gain": 0.004666666666666597,
+      "retention_ratio": 0.2799999999999968
+    },
+    {
+      "round": 15,
+      "dataset": "OpenBookQA",
+      "global_before": 0.648,
+      "local_after": 0.693,
+      "global_after": 0.641,
+      "local_gain": 0.04499999999999993,
+      "aggregation_gap": 0.051999999999999935,
+      "global_gain": -0.007000000000000006,
+      "retention_ratio": -0.15555555555555595
+    },
+    {
+      "round": 15,
+      "dataset": "SciQ",
+      "global_before": 0.8248248248248248,
+      "local_after": 0.8388388388388388,
+      "global_after": 0.8283283283283284,
+      "local_gain": 0.014014014014014031,
+      "aggregation_gap": 0.01051051051051044,
+      "global_gain": 0.003503503503503591,
+      "retention_ratio": 0.25000000000000594
+    },
+    {
+      "round": 15,
+      "dataset": "HellaSwag",
+      "global_before": 0.704,
+      "local_after": 0.756,
+      "global_after": 0.7273333333333334,
+      "local_gain": 0.052000000000000046,
+      "aggregation_gap": 0.028666666666666618,
+      "global_gain": 0.023333333333333428,
+      "retention_ratio": 0.4487179487179501
+    },
+    {
+      "round": 15,
+      "dataset": "RACE",
+      "global_before": 0.65,
+      "local_after": 0.6733333333333333,
+      "global_after": 0.648,
+      "local_gain": 0.023333333333333317,
+      "aggregation_gap": 0.02533333333333332,
+      "global_gain": -0.0020000000000000018,
+      "retention_ratio": -0.08571428571428585
+    },
+    {
+      "round": 16,
+      "dataset": "CosmosQA",
+      "global_before": 0.6606666666666666,
+      "local_after": 0.6566666666666666,
+      "global_after": 0.6606666666666666,
+      "local_gain": -0.0040000000000000036,
+      "aggregation_gap": -0.0040000000000000036,
+      "global_gain": 0.0,
+      "retention_ratio": null
+    },
+    {
+      "round": 16,
+      "dataset": "OpenBookQA",
+      "global_before": 0.641,
+      "local_after": 0.701,
+      "global_after": 0.649,
+      "local_gain": 0.05999999999999994,
+      "aggregation_gap": 0.051999999999999935,
+      "global_gain": 0.008000000000000007,
+      "retention_ratio": 0.13333333333333358
+    },
+    {
+      "round": 16,
+      "dataset": "SciQ",
+      "global_before": 0.8283283283283284,
+      "local_after": 0.8363363363363363,
+      "global_after": 0.8258258258258259,
+      "local_gain": 0.008008008008007939,
+      "aggregation_gap": 0.01051051051051044,
+      "global_gain": -0.0025025025025025016,
+      "retention_ratio": -0.3125000000000026
+    },
+    {
+      "round": 16,
+      "dataset": "HellaSwag",
+      "global_before": 0.7273333333333334,
+      "local_after": 0.7686666666666667,
+      "global_after": 0.7126666666666667,
+      "local_gain": 0.04133333333333333,
+      "aggregation_gap": 0.05600000000000005,
+      "global_gain": -0.014666666666666717,
+      "retention_ratio": -0.3548387096774206
+    },
+    {
+      "round": 16,
+      "dataset": "RACE",
+      "global_before": 0.648,
+      "local_after": 0.674,
+      "global_after": 0.6486666666666666,
+      "local_gain": 0.026000000000000023,
+      "aggregation_gap": 0.02533333333333343,
+      "global_gain": 0.0006666666666665932,
+      "retention_ratio": 0.025641025641022795
+    },
+    {
+      "round": 17,
+      "dataset": "CosmosQA",
+      "global_before": 0.6606666666666666,
+      "local_after": 0.6733333333333333,
+      "global_after": 0.6526666666666666,
+      "local_gain": 0.012666666666666715,
+      "aggregation_gap": 0.020666666666666722,
+      "global_gain": -0.008000000000000007,
+      "retention_ratio": -0.6315789473684192
+    },
+    {
+      "round": 17,
+      "dataset": "OpenBookQA",
+      "global_before": 0.649,
+      "local_after": 0.696,
+      "global_after": 0.653,
+      "local_gain": 0.04699999999999993,
+      "aggregation_gap": 0.04299999999999993,
+      "global_gain": 0.0040000000000000036,
+      "retention_ratio": 0.08510638297872361
+    },
+    {
+      "round": 17,
+      "dataset": "SciQ",
+      "global_before": 0.8258258258258259,
+      "local_after": 0.8468468468468469,
+      "global_after": 0.8238238238238238,
+      "local_gain": 0.02102102102102099,
+      "aggregation_gap": 0.02302302302302306,
+      "global_gain": -0.002002002002002068,
+      "retention_ratio": -0.09523809523809851
+    },
+    {
+      "round": 17,
+      "dataset": "HellaSwag",
+      "global_before": 0.7126666666666667,
+      "local_after": 0.76,
+      "global_after": 0.6986666666666667,
+      "local_gain": 0.04733333333333334,
+      "aggregation_gap": 0.06133333333333335,
+      "global_gain": -0.014000000000000012,
+      "retention_ratio": -0.29577464788732416
+    },
+    {
+      "round": 17,
+      "dataset": "RACE",
+      "global_before": 0.6486666666666666,
+      "local_after": 0.6586666666666666,
+      "global_after": 0.6446666666666667,
+      "local_gain": 0.010000000000000009,
+      "aggregation_gap": 0.013999999999999901,
+      "global_gain": -0.0039999999999998925,
+      "retention_ratio": -0.3999999999999889
+    },
+    {
+      "round": 18,
+      "dataset": "CosmosQA",
+      "global_before": 0.6526666666666666,
+      "local_after": 0.664,
+      "global_after": 0.6506666666666666,
+      "local_gain": 0.011333333333333417,
+      "aggregation_gap": 0.01333333333333342,
+      "global_gain": -0.0020000000000000018,
+      "retention_ratio": -0.17647058823529296
+    },
+    {
+      "round": 18,
+      "dataset": "OpenBookQA",
+      "global_before": 0.653,
+      "local_after": 0.706,
+      "global_after": 0.639,
+      "local_gain": 0.052999999999999936,
+      "aggregation_gap": 0.06699999999999995,
+      "global_gain": -0.014000000000000012,
+      "retention_ratio": -0.26415094339622697
+    },
+    {
+      "round": 18,
+      "dataset": "SciQ",
+      "global_before": 0.8238238238238238,
+      "local_after": 0.8458458458458459,
+      "global_after": 0.8263263263263263,
+      "local_gain": 0.02202202202202208,
+      "aggregation_gap": 0.01951951951951958,
+      "global_gain": 0.0025025025025025016,
+      "retention_ratio": 0.1136363636363633
+    },
+    {
+      "round": 18,
+      "dataset": "HellaSwag",
+      "global_before": 0.6986666666666667,
+      "local_after": 0.7693333333333333,
+      "global_after": 0.706,
+      "local_gain": 0.07066666666666666,
+      "aggregation_gap": 0.06333333333333335,
+      "global_gain": 0.007333333333333303,
+      "retention_ratio": 0.10377358490565997
+    },
+    {
+      "round": 18,
+      "dataset": "RACE",
+      "global_before": 0.6446666666666667,
+      "local_after": 0.6626666666666666,
+      "global_after": 0.654,
+      "local_gain": 0.017999999999999905,
+      "aggregation_gap": 0.0086666666666666,
+      "global_gain": 0.009333333333333305,
+      "retention_ratio": 0.5185185185185197
+    },
+    {
+      "round": 19,
+      "dataset": "CosmosQA",
+      "global_before": 0.6506666666666666,
+      "local_after": 0.65,
+      "global_after": 0.656,
+      "local_gain": -0.0006666666666665932,
+      "aggregation_gap": -0.006000000000000005,
+      "global_gain": 0.005333333333333412,
+      "retention_ratio": null
+    },
+    {
+      "round": 19,
+      "dataset": "OpenBookQA",
+      "global_before": 0.639,
+      "local_after": 0.682,
+      "global_after": 0.649,
+      "local_gain": 0.04300000000000004,
+      "aggregation_gap": 0.03300000000000003,
+      "global_gain": 0.010000000000000009,
+      "retention_ratio": 0.23255813953488372
+    },
+    {
+      "round": 19,
+      "dataset": "SciQ",
+      "global_before": 0.8263263263263263,
+      "local_after": 0.8558558558558559,
+      "global_after": 0.8278278278278278,
+      "local_gain": 0.029529529529529586,
+      "aggregation_gap": 0.028028028028028062,
+      "global_gain": 0.0015015015015015232,
+      "retention_ratio": 0.05084745762711928
+    },
+    {
+      "round": 19,
+      "dataset": "HellaSwag",
+      "global_before": 0.706,
+      "local_after": 0.7666666666666667,
+      "global_after": 0.718,
+      "local_gain": 0.06066666666666676,
+      "aggregation_gap": 0.04866666666666675,
+      "global_gain": 0.01200000000000001,
+      "retention_ratio": 0.19780219780219768
+    },
+    {
+      "round": 19,
+      "dataset": "RACE",
+      "global_before": 0.654,
+      "local_after": 0.6533333333333333,
+      "global_after": 0.6493333333333333,
+      "local_gain": -0.0006666666666667043,
+      "aggregation_gap": 0.0040000000000000036,
+      "global_gain": -0.004666666666666708,
+      "retention_ratio": null
+    },
+    {
+      "round": 20,
+      "dataset": "CosmosQA",
+      "global_before": 0.656,
+      "local_after": 0.6706666666666666,
+      "global_after": 0.648,
+      "local_gain": 0.014666666666666606,
+      "aggregation_gap": 0.022666666666666613,
+      "global_gain": -0.008000000000000007,
+      "retention_ratio": -0.5454545454545482
+    },
+    {
+      "round": 20,
+      "dataset": "OpenBookQA",
+      "global_before": 0.649,
+      "local_after": 0.698,
+      "global_after": 0.655,
+      "local_gain": 0.04899999999999993,
+      "aggregation_gap": 0.04299999999999993,
+      "global_gain": 0.006000000000000005,
+      "retention_ratio": 0.12244897959183701
+    },
+    {
+      "round": 20,
+      "dataset": "SciQ",
+      "global_before": 0.8278278278278278,
+      "local_after": 0.8373373373373373,
+      "global_after": 0.8243243243243243,
+      "local_gain": 0.009509509509509462,
+      "aggregation_gap": 0.013013013013012942,
+      "global_gain": -0.00350350350350348,
+      "retention_ratio": -0.3684210526315783
+    },
+    {
+      "round": 20,
+      "dataset": "HellaSwag",
+      "global_before": 0.718,
+      "local_after": 0.776,
+      "global_after": 0.7213333333333334,
+      "local_gain": 0.05800000000000005,
+      "aggregation_gap": 0.05466666666666664,
+      "global_gain": 0.0033333333333334103,
+      "retention_ratio": 0.05747126436781737
+    },
+    {
+      "round": 20,
+      "dataset": "RACE",
+      "global_before": 0.6493333333333333,
+      "local_after": 0.68,
+      "global_after": 0.6506666666666666,
+      "local_gain": 0.03066666666666673,
+      "aggregation_gap": 0.029333333333333433,
+      "global_gain": 0.0013333333333332975,
+      "retention_ratio": 0.04347826086956396
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+setting: B
+sources: [cosmosqa, openbookqa, sciq, hellaswag, race]
+source_prepared_dir: dataset/cosmosqa_five_client4000_seed42
+prepared_dir: dataset/fragmentation_5source_10client_seed42
+split_seed: 42
+seed: 42
+clients_per_source: 2
+samples_per_client: 2000
+rounds: 10
+clientlocal_epochs: 10
+local_epochs_per_round: 1
+aggregation: standard_ftbase
+centralized_reference_epoch: 6

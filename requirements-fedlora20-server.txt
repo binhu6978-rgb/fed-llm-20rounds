@@ -1,0 +1,12 @@
+# Install a CUDA/BF16-capable PyTorch build for the server separately.
+# Source used Python 3.12.11 and torch 2.10.0.dev20251013+cu128 on Windows.
+# Other versions below are the actual observed source environment.
+transformers==4.57.6
+peft==0.20.0
+numpy==2.1.2
+safetensors==0.6.2
+PyYAML==6.0.3
+datasets==4.2.0
+accelerate==1.14.0
+huggingface-hub==0.36.2
+tokenizers==0.22.1

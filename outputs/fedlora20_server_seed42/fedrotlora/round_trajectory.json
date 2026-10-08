@@ -1,0 +1,1872 @@
+[
+  {
+    "round": 1,
+    "metrics": {
+      "cosmosqa_accuracy": 0.4726666666666667,
+      "openbookqa_accuracy": 0.5,
+      "sciq_accuracy": 0.8123123123123123,
+      "hellaswag_accuracy": 0.37466666666666665,
+      "race_accuracy": 0.514,
+      "macro_accuracy": 0.5347291291291291,
+      "worst_domain_accuracy": 0.37466666666666665
+    },
+    "checkpoint": "outputs\\fedlora_baselines_5source_seed42\\baseline_fedrotlora_5source_seed42\\round_01\\global\\complete_state.pt",
+    "global_function_state_sha256": "1e33409ed2bb3e8d5381f290c30858909d9889de1b95ee368079681d52abbbbb",
+    "lora_tensor_sha256": "878f73e02ecc4d8b5f2c792e140355e2aa298a55e5693eff2bc9c9f48481efb6",
+    "start_function_hash": "fe659b3310e1da454d96130b8a34bf504d71efb0748ef79e509b557f0ac69219",
+    "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+    "weights": {
+      "cosmosqa": 0.2,
+      "openbookqa": 0.2,
+      "sciq": 0.2,
+      "hellaswag": 0.2,
+      "race": 0.2
+    },
+    "clients": {
+      "cosmosqa": {
+        "start_function_hash": "fe659b3310e1da454d96130b8a34bf504d71efb0748ef79e509b557f0ac69219",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "815a081780bcba1519188020de1e4631ddc219d84a9eb584f9e96a1c71acc66a",
+        "upload_hash": "815a081780bcba1519188020de1e4631ddc219d84a9eb584f9e96a1c71acc66a",
+        "budget": {
+          "train_loss": 0.4774824335080339,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      },
+      "openbookqa": {
+        "start_function_hash": "fe659b3310e1da454d96130b8a34bf504d71efb0748ef79e509b557f0ac69219",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "27ce201c4b65d95f6f72d67217d603de9373993d7007b055ef551e9e8a4bb146",
+        "upload_hash": "27ce201c4b65d95f6f72d67217d603de9373993d7007b055ef551e9e8a4bb146",
+        "budget": {
+          "train_loss": 0.4559550202934406,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      },
+      "sciq": {
+        "start_function_hash": "fe659b3310e1da454d96130b8a34bf504d71efb0748ef79e509b557f0ac69219",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "888e01a7ba31e6db6d3b748c32da7ddcedcbc7ce335ef2775c27d71bba89a37c",
+        "upload_hash": "888e01a7ba31e6db6d3b748c32da7ddcedcbc7ce335ef2775c27d71bba89a37c",
+        "budget": {
+          "train_loss": 0.26646486611009457,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      },
+      "hellaswag": {
+        "start_function_hash": "fe659b3310e1da454d96130b8a34bf504d71efb0748ef79e509b557f0ac69219",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "1191c00646aaa92a03baaa2074ad066b6d88e42916ea4cc225223464786d2f07",
+        "upload_hash": "1191c00646aaa92a03baaa2074ad066b6d88e42916ea4cc225223464786d2f07",
+        "budget": {
+          "train_loss": 0.5114386747106328,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      },
+      "race": {
+        "start_function_hash": "fe659b3310e1da454d96130b8a34bf504d71efb0748ef79e509b557f0ac69219",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "ceafe0c68e375dd59a608f39d89e580a1369bc8973032a13f4c5187c05d9ee3a",
+        "upload_hash": "ceafe0c68e375dd59a608f39d89e580a1369bc8973032a13f4c5187c05d9ee3a",
+        "budget": {
+          "train_loss": 0.5410355991954275,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      }
+    }
+  },
+  {
+    "round": 2,
+    "metrics": {
+      "cosmosqa_accuracy": 0.556,
+      "openbookqa_accuracy": 0.563,
+      "sciq_accuracy": 0.8183183183183184,
+      "hellaswag_accuracy": 0.5266666666666666,
+      "race_accuracy": 0.5833333333333334,
+      "macro_accuracy": 0.6094636636636637,
+      "worst_domain_accuracy": 0.5266666666666666
+    },
+    "checkpoint": "outputs\\fedlora_baselines_5source_seed42\\baseline_fedrotlora_5source_seed42\\round_02\\global\\complete_state.pt",
+    "global_function_state_sha256": "f819697517b5fa5901cb51f4b16343345818acb618cdf3c5f7d6de197ceef3c1",
+    "lora_tensor_sha256": "dacf94ae3ae1fa29269ce7f7ff6879cb05e68d19277a244105033f1ff87226ad",
+    "start_function_hash": "1e33409ed2bb3e8d5381f290c30858909d9889de1b95ee368079681d52abbbbb",
+    "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+    "weights": {
+      "cosmosqa": 0.2,
+      "openbookqa": 0.2,
+      "sciq": 0.2,
+      "hellaswag": 0.2,
+      "race": 0.2
+    },
+    "clients": {
+      "cosmosqa": {
+        "start_function_hash": "1e33409ed2bb3e8d5381f290c30858909d9889de1b95ee368079681d52abbbbb",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "dcd91bef6fb0a2718140f5c2fbdd976b16495f88a4b9b75c42d14cf3d3c6d481",
+        "upload_hash": "62f426086fbea9f4d8eb2ce144256258bc3c06e8a4dc5dae96ee4b610138a3bc",
+        "budget": {
+          "train_loss": 0.4013954342055949,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      },
+      "openbookqa": {
+        "start_function_hash": "1e33409ed2bb3e8d5381f290c30858909d9889de1b95ee368079681d52abbbbb",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "2a7b1f1f4bc36893c96923dfa99ab00b2a056b72419bd8a89d73d6d23958dd80",
+        "upload_hash": "8f77bd6e1c8542d27e4da0f3c512fb5a2daa93a0b62d74a2d772b02664d76ef6",
+        "budget": {
+          "train_loss": 0.399087726482132,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      },
+      "sciq": {
+        "start_function_hash": "1e33409ed2bb3e8d5381f290c30858909d9889de1b95ee368079681d52abbbbb",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "7d0e10558a5bacf11d972db0acfe763ce2b90f1b67e260fd6104a22ed568f82b",
+        "upload_hash": "aa857c42bcee91712fc1bc7f3bfc4e700fb79e9df2e86fc158714f5ed64a9f25",
+        "budget": {
+          "train_loss": 0.22041041322476668,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      },
+      "hellaswag": {
+        "start_function_hash": "1e33409ed2bb3e8d5381f290c30858909d9889de1b95ee368079681d52abbbbb",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "66c893a2586a914962c64992d342bc01e322ad848ab6fc383499dd38f3666cf2",
+        "upload_hash": "947176efd7984a02ca21057744a1576fc3fa9a59296ba038a36ee558ebf8f7df",
+        "budget": {
+          "train_loss": 0.39484702851365727,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      },
+      "race": {
+        "start_function_hash": "1e33409ed2bb3e8d5381f290c30858909d9889de1b95ee368079681d52abbbbb",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "329c5c14bdd5ea8ff47f11321e6f9b666910211743e446a2fe5b9894b772c500",
+        "upload_hash": "5cede432a4012ac1540cce2f675342b7e83f8d6fb2bf7a8bc142b20967bdff79",
+        "budget": {
+          "train_loss": 0.4779748580340238,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      }
+    }
+  },
+  {
+    "round": 3,
+    "metrics": {
+      "cosmosqa_accuracy": 0.5913333333333334,
+      "openbookqa_accuracy": 0.58,
+      "sciq_accuracy": 0.8283283283283284,
+      "hellaswag_accuracy": 0.612,
+      "race_accuracy": 0.5986666666666667,
+      "macro_accuracy": 0.6420656656656657,
+      "worst_domain_accuracy": 0.58
+    },
+    "checkpoint": "outputs\\fedlora_baselines_5source_seed42\\baseline_fedrotlora_5source_seed42\\round_03\\global\\complete_state.pt",
+    "global_function_state_sha256": "dc0bdcf49ef82407965b6d655159418f738258d684c1cc78bb225a4d97e89f9d",
+    "lora_tensor_sha256": "28e71f4d66d43d252b753794047eb479f3407b3b0a4ac14542256bc4951603ff",
+    "start_function_hash": "f819697517b5fa5901cb51f4b16343345818acb618cdf3c5f7d6de197ceef3c1",
+    "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+    "weights": {
+      "cosmosqa": 0.2,
+      "openbookqa": 0.2,
+      "sciq": 0.2,
+      "hellaswag": 0.2,
+      "race": 0.2
+    },
+    "clients": {
+      "cosmosqa": {
+        "start_function_hash": "f819697517b5fa5901cb51f4b16343345818acb618cdf3c5f7d6de197ceef3c1",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "9e14073b970f7830f2ab51a12e222d55d175852d5c23173cd633766d98843f9b",
+        "upload_hash": "bac0cd8e6e8d4db6870fc53d85ef40c92d447b1dcdbd4c9df77014fa38f3c0fc",
+        "budget": {
+          "train_loss": 0.35855116265986,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      },
+      "openbookqa": {
+        "start_function_hash": "f819697517b5fa5901cb51f4b16343345818acb618cdf3c5f7d6de197ceef3c1",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "5d055fa33bf8cd2e9a26320e735c7fa7e0e8e35ab2b393c8ea7686c3647d3767",
+        "upload_hash": "529fb78e6f68babd80a051b366520e8054bb8984ffe40f1d53088cacc140a683",
+        "budget": {
+          "train_loss": 0.3565318869806651,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      },
+      "sciq": {
+        "start_function_hash": "f819697517b5fa5901cb51f4b16343345818acb618cdf3c5f7d6de197ceef3c1",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "3c13cf4d1fd7a7e403825921df78c02be2c226be5e8dddbb82bd35061155fe69",
+        "upload_hash": "5f7008243c41cfb99287b9225614757fe7fba11fb67c4bfa7c3ad56dd2c3eaa0",
+        "budget": {
+          "train_loss": 0.19390161300516776,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      },
+      "hellaswag": {
+        "start_function_hash": "f819697517b5fa5901cb51f4b16343345818acb618cdf3c5f7d6de197ceef3c1",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "e922a3e6841853682a9c4ea3703a6b20301371700c96fef107d6b4dc18a97dc9",
+        "upload_hash": "959225b7f5c6b3b86a40c0878492424bc1cbaed9eb275b56e04b32a8574fd516",
+        "budget": {
+          "train_loss": 0.3268036701579585,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      },
+      "race": {
+        "start_function_hash": "f819697517b5fa5901cb51f4b16343345818acb618cdf3c5f7d6de197ceef3c1",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "0c77bc9ef558b11c699d720dc6cb748f81b4dacbc6113d7d934f63693f228d32",
+        "upload_hash": "47249e519daf9c13291e84ca9a8a20ebbef7d5c7f68c38372a42c589b60d1e44",
+        "budget": {
+          "train_loss": 0.43161691198105107,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      }
+    }
+  },
+  {
+    "round": 4,
+    "metrics": {
+      "cosmosqa_accuracy": 0.614,
+      "openbookqa_accuracy": 0.612,
+      "sciq_accuracy": 0.8273273273273273,
+      "hellaswag_accuracy": 0.6266666666666667,
+      "race_accuracy": 0.6126666666666667,
+      "macro_accuracy": 0.6585321321321321,
+      "worst_domain_accuracy": 0.612
+    },
+    "checkpoint": "outputs\\fedlora_baselines_5source_seed42\\baseline_fedrotlora_5source_seed42\\round_04\\global\\complete_state.pt",
+    "global_function_state_sha256": "7094529035b22ad0b90b70a7d8dc351db1387f80cff95ce30f4d6cc5c0f0fbe5",
+    "lora_tensor_sha256": "6aa294d0f4fb2207405f58508ecb44f1d8e0950e00c1fa85dd6b248139397f43",
+    "start_function_hash": "dc0bdcf49ef82407965b6d655159418f738258d684c1cc78bb225a4d97e89f9d",
+    "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+    "weights": {
+      "cosmosqa": 0.2,
+      "openbookqa": 0.2,
+      "sciq": 0.2,
+      "hellaswag": 0.2,
+      "race": 0.2
+    },
+    "clients": {
+      "cosmosqa": {
+        "start_function_hash": "dc0bdcf49ef82407965b6d655159418f738258d684c1cc78bb225a4d97e89f9d",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "961d317d83031912e5d1259d592373998a6e4c653895b4858c38534b991cd2a5",
+        "upload_hash": "68e18f3260f7c7368b42c4f60dce5868248898e3c60505a40c0b812ab727e357",
+        "budget": {
+          "train_loss": 0.32659973572903256,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      },
+      "openbookqa": {
+        "start_function_hash": "dc0bdcf49ef82407965b6d655159418f738258d684c1cc78bb225a4d97e89f9d",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "07faa0f05a5b3d26e9deabc3fe2e6ac58fd22e32b7d75fbce50a611c7df949cf",
+        "upload_hash": "81fe2c9e532d88b966f5391e2f2d7e8b67f14fbf9c648498efce73baccba279f",
+        "budget": {
+          "train_loss": 0.3301219882075457,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      },
+      "sciq": {
+        "start_function_hash": "dc0bdcf49ef82407965b6d655159418f738258d684c1cc78bb225a4d97e89f9d",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "0ab39bfdaba21b462fe92314de79d41621a410de8c46827d507946c2d17138f7",
+        "upload_hash": "000d89a4a7ed008d618a3b032f1ddb7305f5e17fc42b485ae3c6c16fe807b448",
+        "budget": {
+          "train_loss": 0.17517530845927468,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      },
+      "hellaswag": {
+        "start_function_hash": "dc0bdcf49ef82407965b6d655159418f738258d684c1cc78bb225a4d97e89f9d",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "c9948cfe930bd24da772cd95af85ac59bf6ce0cba08937789791ee3a3b28e7c9",
+        "upload_hash": "bef43735257135bb35b0e94dc2ec06844100578d9a2f6b14aee8485a803ff28e",
+        "budget": {
+          "train_loss": 0.29267282162339964,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      },
+      "race": {
+        "start_function_hash": "dc0bdcf49ef82407965b6d655159418f738258d684c1cc78bb225a4d97e89f9d",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "104942670e81a78e16c3f5b48170086547ed626140b01c09a135768ed5dbcf33",
+        "upload_hash": "51f2c1d25f9e4dea2dedb7fb359e72eee3156f52559fd3be76c70bb906540e0f",
+        "budget": {
+          "train_loss": 0.3982147496125326,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      }
+    }
+  },
+  {
+    "round": 5,
+    "metrics": {
+      "cosmosqa_accuracy": 0.6146666666666667,
+      "openbookqa_accuracy": 0.61,
+      "sciq_accuracy": 0.8293293293293293,
+      "hellaswag_accuracy": 0.646,
+      "race_accuracy": 0.63,
+      "macro_accuracy": 0.6659991991991993,
+      "worst_domain_accuracy": 0.61
+    },
+    "checkpoint": "outputs\\fedlora_baselines_5source_seed42\\baseline_fedrotlora_5source_seed42\\round_05\\global\\complete_state.pt",
+    "global_function_state_sha256": "4e74fa78a352c6cc28d34d132fbb4a705ea6f4d5d67ae592b412e964224a7a07",
+    "lora_tensor_sha256": "e216ac3171a6cad0f41cd6794f678788423d037cb4e3cdcaf8f628a79f91a07a",
+    "start_function_hash": "7094529035b22ad0b90b70a7d8dc351db1387f80cff95ce30f4d6cc5c0f0fbe5",
+    "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+    "weights": {
+      "cosmosqa": 0.2,
+      "openbookqa": 0.2,
+      "sciq": 0.2,
+      "hellaswag": 0.2,
+      "race": 0.2
+    },
+    "clients": {
+      "cosmosqa": {
+        "start_function_hash": "7094529035b22ad0b90b70a7d8dc351db1387f80cff95ce30f4d6cc5c0f0fbe5",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "1d7f726b7ab7b4f55cc1913e5325e2c482885106bbfe2502c7aa7e4ace071a35",
+        "upload_hash": "ea86104bb4bc0788f4edbc6a952fc766d73bcfb52a53c28d801fdfa6820c52eb",
+        "budget": {
+          "train_loss": 0.2997190771513197,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      },
+      "openbookqa": {
+        "start_function_hash": "7094529035b22ad0b90b70a7d8dc351db1387f80cff95ce30f4d6cc5c0f0fbe5",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "072e3a633677c0c81941323437af2fe8a20902f993992acfd8b2eaa7b767f990",
+        "upload_hash": "0a6e4c026bf7f1f121231f3a7e29f93727b01d3b519a9f76a33e1820c6360628",
+        "budget": {
+          "train_loss": 0.3020038281916204,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      },
+      "sciq": {
+        "start_function_hash": "7094529035b22ad0b90b70a7d8dc351db1387f80cff95ce30f4d6cc5c0f0fbe5",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "66c432aaf1c9d01f111aca173b26bddeabf36d6b99c67da96a054a7efe65ce2d",
+        "upload_hash": "add53eb4045186b7548905c0ed0c00e87b08983e035eddbe067d7460d877c2ef",
+        "budget": {
+          "train_loss": 0.15451251409263114,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      },
+      "hellaswag": {
+        "start_function_hash": "7094529035b22ad0b90b70a7d8dc351db1387f80cff95ce30f4d6cc5c0f0fbe5",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "bcd87ae96ade10e7578c33abee37eb89b27e8ed8dcb5f09282138e6d7df7859d",
+        "upload_hash": "e9a05ee2969e487964a6ea33f853ea78941adca88e6f29c4738218188f8d8296",
+        "budget": {
+          "train_loss": 0.26221604556072453,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      },
+      "race": {
+        "start_function_hash": "7094529035b22ad0b90b70a7d8dc351db1387f80cff95ce30f4d6cc5c0f0fbe5",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "29c25317ea00994451eb4f89ae791ca5f4bc1b3cacedd58df8bdd048e935356e",
+        "upload_hash": "e1ae2bdd9dfcdfe2edb3774ea1517d7dc09ed53c1a7ba7343159201fa4731681",
+        "budget": {
+          "train_loss": 0.36652753968900653,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      }
+    }
+  },
+  {
+    "round": 6,
+    "metrics": {
+      "cosmosqa_accuracy": 0.6233333333333333,
+      "openbookqa_accuracy": 0.626,
+      "sciq_accuracy": 0.8343343343343343,
+      "hellaswag_accuracy": 0.6526666666666666,
+      "race_accuracy": 0.6273333333333333,
+      "macro_accuracy": 0.6727335335335335,
+      "worst_domain_accuracy": 0.6233333333333333
+    },
+    "checkpoint": "outputs\\fedlora_baselines_5source_seed42\\baseline_fedrotlora_5source_seed42\\round_06\\global\\complete_state.pt",
+    "global_function_state_sha256": "2671bb22567bfd22535deebbf44f58c294b01487886c497c764171a21ceb7277",
+    "lora_tensor_sha256": "e77ef71eaf692f31bbdfdec31d3747e3992c1ed412c2c03cd07604c762635206",
+    "start_function_hash": "4e74fa78a352c6cc28d34d132fbb4a705ea6f4d5d67ae592b412e964224a7a07",
+    "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+    "weights": {
+      "cosmosqa": 0.2,
+      "openbookqa": 0.2,
+      "sciq": 0.2,
+      "hellaswag": 0.2,
+      "race": 0.2
+    },
+    "clients": {
+      "cosmosqa": {
+        "start_function_hash": "4e74fa78a352c6cc28d34d132fbb4a705ea6f4d5d67ae592b412e964224a7a07",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "3c605aa69c62c927543742cedfe326552b77003e98c12241bcf731c7306474c6",
+        "upload_hash": "93336e0a4cc1ecd4c215c962688b1c65e72d04df8990056b0a242cb355b79dd2",
+        "budget": {
+          "train_loss": 0.26862125400137304,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      },
+      "openbookqa": {
+        "start_function_hash": "4e74fa78a352c6cc28d34d132fbb4a705ea6f4d5d67ae592b412e964224a7a07",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "914e0300c6dd0185f3282249a65bf3508b4bdbe50792380421426a9467d3d3e8",
+        "upload_hash": "2b889a14944561e79b13c6c9a2396f468f7829527caa7cf4283e69b00869aa1a",
+        "budget": {
+          "train_loss": 0.2729295518691106,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      },
+      "sciq": {
+        "start_function_hash": "4e74fa78a352c6cc28d34d132fbb4a705ea6f4d5d67ae592b412e964224a7a07",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "5e21ee387a6f51a228baee3c24bc88193ffaf6112fc98eaefc27df0750eaea75",
+        "upload_hash": "e7dcd127fd041f4d6d5ac3a64ebcc527b90abe7884fa1e99cc705e7550fdb4f7",
+        "budget": {
+          "train_loss": 0.13512431929239846,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      },
+      "hellaswag": {
+        "start_function_hash": "4e74fa78a352c6cc28d34d132fbb4a705ea6f4d5d67ae592b412e964224a7a07",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "e4800a73966bb5fe417979866694cab571677306dbfa678351c303e6f8ae4f22",
+        "upload_hash": "894f33ff19bfb5891df559f9a9f52a37ef55cde89a591fa52944399ad4246bc5",
+        "budget": {
+          "train_loss": 0.2274031616748673,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      },
+      "race": {
+        "start_function_hash": "4e74fa78a352c6cc28d34d132fbb4a705ea6f4d5d67ae592b412e964224a7a07",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "63f43f1e8f2a7774c06b1ba00c0f4681291901f3c97177b36bd65190e20fe424",
+        "upload_hash": "e2c547416824ef5e2c8b9a2736d4fe7cbc3844f23c58921d3023ea4473900224",
+        "budget": {
+          "train_loss": 0.3398054281099976,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      }
+    }
+  },
+  {
+    "round": 7,
+    "metrics": {
+      "cosmosqa_accuracy": 0.636,
+      "openbookqa_accuracy": 0.636,
+      "sciq_accuracy": 0.8343343343343343,
+      "hellaswag_accuracy": 0.6713333333333333,
+      "race_accuracy": 0.6446666666666667,
+      "macro_accuracy": 0.684466866866867,
+      "worst_domain_accuracy": 0.636
+    },
+    "checkpoint": "outputs\\fedlora_baselines_5source_seed42\\baseline_fedrotlora_5source_seed42\\round_07\\global\\complete_state.pt",
+    "global_function_state_sha256": "29cfcdd93e4c7d8b2269709bd9681d6822c00db4b36d9fc920bfe9b9cea5853f",
+    "lora_tensor_sha256": "f3d1bd0cb5b6e3c9add90f4598e904c39428896d327a43939379e7541ccdded5",
+    "start_function_hash": "2671bb22567bfd22535deebbf44f58c294b01487886c497c764171a21ceb7277",
+    "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+    "weights": {
+      "cosmosqa": 0.2,
+      "openbookqa": 0.2,
+      "sciq": 0.2,
+      "hellaswag": 0.2,
+      "race": 0.2
+    },
+    "clients": {
+      "cosmosqa": {
+        "start_function_hash": "2671bb22567bfd22535deebbf44f58c294b01487886c497c764171a21ceb7277",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "21ccdc09a782cde9c70dcb909a1ba30bb41011aa4cffe63f3ba9e9bb7b04c619",
+        "upload_hash": "0f996182ea24edd05e8ae29a211464882c615ea072ea323498510ed7f7c0559a",
+        "budget": {
+          "train_loss": 0.24491443836031612,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      },
+      "openbookqa": {
+        "start_function_hash": "2671bb22567bfd22535deebbf44f58c294b01487886c497c764171a21ceb7277",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "14c8441fe109fce02490363c61bb5507b18e4af1b0af0b49d15d5a0d78994ff6",
+        "upload_hash": "b975b9e7c4d5779389fd6ccc48351bbcd98152d1ab53ae358c3dfd0499998d7b",
+        "budget": {
+          "train_loss": 0.2490043100821749,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      },
+      "sciq": {
+        "start_function_hash": "2671bb22567bfd22535deebbf44f58c294b01487886c497c764171a21ceb7277",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "f1fa9b92e9e9f11524900a6df876a83cf1a7ab36c1562c9114d1f30452119806",
+        "upload_hash": "68b7ee078f5f86566e4411f6edbfed6e4a1a84fee46db7ef71c9f6f79c2f8a06",
+        "budget": {
+          "train_loss": 0.11803545802644794,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      },
+      "hellaswag": {
+        "start_function_hash": "2671bb22567bfd22535deebbf44f58c294b01487886c497c764171a21ceb7277",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "9e6f604054cbb1eb63f67720675c8c05717c4feebf7d5dd466a0c05a7add18fb",
+        "upload_hash": "77dc58d7c8d31887774423e8eccf6d4a13e452d1e2f3150477eaad19438986a0",
+        "budget": {
+          "train_loss": 0.20527576326237523,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      },
+      "race": {
+        "start_function_hash": "2671bb22567bfd22535deebbf44f58c294b01487886c497c764171a21ceb7277",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "47044dd17c58f4dba4b6a79abb4c4f7fb5d96c07704880996d52ab7bf679f28e",
+        "upload_hash": "100fefce3dbc5d76c1ed2396455318736a45559f1cf033c52514b7d276e5ba92",
+        "budget": {
+          "train_loss": 0.3165652615527506,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      }
+    }
+  },
+  {
+    "round": 8,
+    "metrics": {
+      "cosmosqa_accuracy": 0.6513333333333333,
+      "openbookqa_accuracy": 0.636,
+      "sciq_accuracy": 0.8308308308308309,
+      "hellaswag_accuracy": 0.6746666666666666,
+      "race_accuracy": 0.6386666666666667,
+      "macro_accuracy": 0.6862994994994995,
+      "worst_domain_accuracy": 0.636
+    },
+    "checkpoint": "outputs\\fedlora_baselines_5source_seed42\\baseline_fedrotlora_5source_seed42\\round_08\\global\\complete_state.pt",
+    "global_function_state_sha256": "5fa3d331bdc131bc5eaaab7c9caea0ad6267f70339c3c6703fb5f76ddf7741d6",
+    "lora_tensor_sha256": "4dc1c6d0ab22b27794c4de8d2a0cce3ac74aec0904871136f97d5642f6e26979",
+    "start_function_hash": "29cfcdd93e4c7d8b2269709bd9681d6822c00db4b36d9fc920bfe9b9cea5853f",
+    "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+    "weights": {
+      "cosmosqa": 0.2,
+      "openbookqa": 0.2,
+      "sciq": 0.2,
+      "hellaswag": 0.2,
+      "race": 0.2
+    },
+    "clients": {
+      "cosmosqa": {
+        "start_function_hash": "29cfcdd93e4c7d8b2269709bd9681d6822c00db4b36d9fc920bfe9b9cea5853f",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "bb026816a0f307573a6be253dd273032c8f7147698db5f61d0c0dcce416c23d8",
+        "upload_hash": "d9478c6a0fca1bcba33fbc5e742ce6b618d042d742d53c82295b0b82ea271bf0",
+        "budget": {
+          "train_loss": 0.22189559819801435,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      },
+      "openbookqa": {
+        "start_function_hash": "29cfcdd93e4c7d8b2269709bd9681d6822c00db4b36d9fc920bfe9b9cea5853f",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "a1b700628b421ebe630601224be36c4dfb814a4f4c3039d80fb973f0279813c3",
+        "upload_hash": "102378cadfa2f9fabfc06acc3538fab2cffd420545828d0168802b581bb8e99d",
+        "budget": {
+          "train_loss": 0.22425906191932382,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      },
+      "sciq": {
+        "start_function_hash": "29cfcdd93e4c7d8b2269709bd9681d6822c00db4b36d9fc920bfe9b9cea5853f",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "98016699ad6aaa29239c7461fc46fa0df46168a791120d921a4159156e774ab8",
+        "upload_hash": "028ddf70c21ac214e7be35f3bbad76882cac634489d98971af403eabbe2bb6d8",
+        "budget": {
+          "train_loss": 0.10633010470692807,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      },
+      "hellaswag": {
+        "start_function_hash": "29cfcdd93e4c7d8b2269709bd9681d6822c00db4b36d9fc920bfe9b9cea5853f",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "e66053dcfc9d155c273868a23fe73fd43594a45e4b65269661330d416c19f1c3",
+        "upload_hash": "3eeff38056733f6795ace9f24c51fe5d5ca5d457c944eba232f9fcd08587ced1",
+        "budget": {
+          "train_loss": 0.18929366140896536,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      },
+      "race": {
+        "start_function_hash": "29cfcdd93e4c7d8b2269709bd9681d6822c00db4b36d9fc920bfe9b9cea5853f",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "b814dd579fdaea84d28427b15bdd45c3de04995d39dccea813c5bfc2a81428e4",
+        "upload_hash": "8acc6354ee68a370318c71a2c67d85568bd8bda08e0084ee19dc01f721bdf227",
+        "budget": {
+          "train_loss": 0.2900645521697006,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      }
+    }
+  },
+  {
+    "round": 9,
+    "metrics": {
+      "cosmosqa_accuracy": 0.6453333333333333,
+      "openbookqa_accuracy": 0.644,
+      "sciq_accuracy": 0.8333333333333334,
+      "hellaswag_accuracy": 0.688,
+      "race_accuracy": 0.6393333333333333,
+      "macro_accuracy": 0.6900000000000001,
+      "worst_domain_accuracy": 0.6393333333333333
+    },
+    "checkpoint": "outputs\\fedlora_baselines_5source_seed42\\baseline_fedrotlora_5source_seed42\\round_09\\global\\complete_state.pt",
+    "global_function_state_sha256": "617b88db151719e78a99b1c797791fb7aea6a6c9a829e68901163ab4ff49418a",
+    "lora_tensor_sha256": "537708a3c609392c4856378d3f79aaeb37a9e34cf82a7a0598d19bc0d6af2db6",
+    "start_function_hash": "5fa3d331bdc131bc5eaaab7c9caea0ad6267f70339c3c6703fb5f76ddf7741d6",
+    "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+    "weights": {
+      "cosmosqa": 0.2,
+      "openbookqa": 0.2,
+      "sciq": 0.2,
+      "hellaswag": 0.2,
+      "race": 0.2
+    },
+    "clients": {
+      "cosmosqa": {
+        "start_function_hash": "5fa3d331bdc131bc5eaaab7c9caea0ad6267f70339c3c6703fb5f76ddf7741d6",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "92bbd728bc30c46d437714cd93e439af44d11dc6334be17958131a23af55cdd6",
+        "upload_hash": "c0f27cdcda4c825e6a560c56665f993aa25127acb0c537a1a7b6b85f86c2297a",
+        "budget": {
+          "train_loss": 0.20665927919544266,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      },
+      "openbookqa": {
+        "start_function_hash": "5fa3d331bdc131bc5eaaab7c9caea0ad6267f70339c3c6703fb5f76ddf7741d6",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "e2a445b4d62a3fb60da2e8d7bf38a9877a056b302ab2bdd0fbad712bd5c3585d",
+        "upload_hash": "239699408e44638f8282c503003ff2e6135998b23410a542c21ee9f3f74d1550",
+        "budget": {
+          "train_loss": 0.2099276052111427,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      },
+      "sciq": {
+        "start_function_hash": "5fa3d331bdc131bc5eaaab7c9caea0ad6267f70339c3c6703fb5f76ddf7741d6",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "c92da2f9bd786011b1747080d6b6e17e3cf4acfcf72c1042d2066a3c90c8519d",
+        "upload_hash": "07502d0e82f075556a96d5c33f21915eef81b7ff33df8f04ba2a59b53cc5350d",
+        "budget": {
+          "train_loss": 0.08610439658111954,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      },
+      "hellaswag": {
+        "start_function_hash": "5fa3d331bdc131bc5eaaab7c9caea0ad6267f70339c3c6703fb5f76ddf7741d6",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "a99dab7b8a97ad4bc74125ca12b5bdf4205361a07e9a8442ff3404d8b55410ff",
+        "upload_hash": "eb609a103747ef50b74df22834974e4545d724e6d08984013601b95b67740737",
+        "budget": {
+          "train_loss": 0.16943407212549527,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      },
+      "race": {
+        "start_function_hash": "5fa3d331bdc131bc5eaaab7c9caea0ad6267f70339c3c6703fb5f76ddf7741d6",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "e52963948c8a7764999572e13aeb5117b005de16435307c2d82dface751882a2",
+        "upload_hash": "8944f89a32a4e92ca06b02232fc4adabb036154de40d22d1f712a7fbc2c2ae3f",
+        "budget": {
+          "train_loss": 0.2691437272074727,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      }
+    }
+  },
+  {
+    "round": 10,
+    "metrics": {
+      "cosmosqa_accuracy": 0.6346666666666667,
+      "openbookqa_accuracy": 0.648,
+      "sciq_accuracy": 0.8283283283283284,
+      "hellaswag_accuracy": 0.69,
+      "race_accuracy": 0.6466666666666666,
+      "macro_accuracy": 0.6895323323323324,
+      "worst_domain_accuracy": 0.6346666666666667
+    },
+    "checkpoint": "outputs\\fedlora_baselines_5source_seed42\\baseline_fedrotlora_5source_seed42\\round_10\\global\\complete_state.pt",
+    "global_function_state_sha256": "f563d7c3e30e2e4119a4ea620d277669a8b50ec7d8c559f4e5e92f2057fcb72c",
+    "lora_tensor_sha256": "026788566bc4771404042d3e801b3de430ba8b33bfad7e1d62e733cde18ecad1",
+    "start_function_hash": "617b88db151719e78a99b1c797791fb7aea6a6c9a829e68901163ab4ff49418a",
+    "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+    "weights": {
+      "cosmosqa": 0.2,
+      "openbookqa": 0.2,
+      "sciq": 0.2,
+      "hellaswag": 0.2,
+      "race": 0.2
+    },
+    "clients": {
+      "cosmosqa": {
+        "start_function_hash": "617b88db151719e78a99b1c797791fb7aea6a6c9a829e68901163ab4ff49418a",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "5ef89213081f3432b15ffd679509cc32836d583c087e823848a30b2a5ae7522e",
+        "upload_hash": "30ce05699073f332cbc8bf666baad5bb28c1e4e1b593b604ebb6ba133a551068",
+        "budget": {
+          "train_loss": 0.1820750600339743,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      },
+      "openbookqa": {
+        "start_function_hash": "617b88db151719e78a99b1c797791fb7aea6a6c9a829e68901163ab4ff49418a",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "5cc8c8cee1d72b7d7cc92a6624c79fa24062215167f2931661f99ae84cb440a3",
+        "upload_hash": "34031ae24cfaafa5c38ce10c2c9ac1483a3c73cdefdf9af85615fa3a18f5fe43",
+        "budget": {
+          "train_loss": 0.18794008849260127,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      },
+      "sciq": {
+        "start_function_hash": "617b88db151719e78a99b1c797791fb7aea6a6c9a829e68901163ab4ff49418a",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "51d2a558291f6553eed80d5c661cbb9ac9957550a34ca83230b873b27b0c92aa",
+        "upload_hash": "ed54b42f0f7f8770901e0a174f369221b7bbbd70e173949bc28ad9be9ed3ccb6",
+        "budget": {
+          "train_loss": 0.07921731807682539,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      },
+      "hellaswag": {
+        "start_function_hash": "617b88db151719e78a99b1c797791fb7aea6a6c9a829e68901163ab4ff49418a",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "391dcc21001fe1831adf390e910e421133825a1f975324c02e0b65754309b37d",
+        "upload_hash": "358582cd7b9b0bec103691431eb5858860cde06eeb7bf9dfa6bf5a5c896b3762",
+        "budget": {
+          "train_loss": 0.15128199879373494,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      },
+      "race": {
+        "start_function_hash": "617b88db151719e78a99b1c797791fb7aea6a6c9a829e68901163ab4ff49418a",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "e7fda39f850d83b4eed32564980f9e0515e9a47abe9ae962e01b306f4c98e1fe",
+        "upload_hash": "7a3654f111473808f78bc8a5d5972882895972336adf6b3503d0970de60b23f0",
+        "budget": {
+          "train_loss": 0.2421635155804579,
+          "samples": 4000,
+          "optimizer_updates": 500
+        }
+      }
+    }
+  },
+  {
+    "round": 11,
+    "metrics": {
+      "cosmosqa_accuracy": 0.65,
+      "openbookqa_accuracy": 0.647,
+      "sciq_accuracy": 0.8303303303303303,
+      "hellaswag_accuracy": 0.6953333333333334,
+      "race_accuracy": 0.6513333333333333,
+      "macro_accuracy": 0.6947993993993994,
+      "worst_domain_accuracy": 0.647
+    },
+    "checkpoint": "outputs/fedlora20_server_seed42/fedrotlora/round_11/global/complete_state.pt",
+    "global_function_state_sha256": "79348c4ade4587dc7e8fca1bc63593b37f2c80583c04f399b2368b7cac6e5722",
+    "lora_tensor_sha256": "d6010ae33f00aa6c681e00026a0f0ce692699b1dc180309089342cd4abba4320",
+    "start_function_hash": "f563d7c3e30e2e4119a4ea620d277669a8b50ec7d8c559f4e5e92f2057fcb72c",
+    "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+    "weights": {
+      "cosmosqa": 0.2,
+      "openbookqa": 0.2,
+      "sciq": 0.2,
+      "hellaswag": 0.2,
+      "race": 0.2
+    },
+    "clients": {
+      "cosmosqa": {
+        "start_function_hash": "f563d7c3e30e2e4119a4ea620d277669a8b50ec7d8c559f4e5e92f2057fcb72c",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "4d4c07cd9dcdc212ef3faf1d73301464c31de33fcf782f213743fb589071dc3d",
+        "upload_hash": "97771921115f6d1c78b798814732522ddefff4fe760085a213b0666f0091961e",
+        "budget": {
+          "train_loss": 0.17062600873259362,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "cosmosqa_accuracy": 0.6566666666666666,
+          "macro_accuracy": 0.6566666666666666,
+          "worst_domain_accuracy": 0.6566666666666666
+        }
+      },
+      "openbookqa": {
+        "start_function_hash": "f563d7c3e30e2e4119a4ea620d277669a8b50ec7d8c559f4e5e92f2057fcb72c",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "66968d7ccc25e1568eec948cacb14735c1c27e3b8d1084c97c0ed3e09ca0c66a",
+        "upload_hash": "53b3c243ff1abdfc6ac53db3cb0d412423c824d397f0ec627f7d02eedcbbe99d",
+        "budget": {
+          "train_loss": 0.16478737027305168,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "openbookqa_accuracy": 0.691,
+          "macro_accuracy": 0.691,
+          "worst_domain_accuracy": 0.691
+        }
+      },
+      "sciq": {
+        "start_function_hash": "f563d7c3e30e2e4119a4ea620d277669a8b50ec7d8c559f4e5e92f2057fcb72c",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "d7b7bddb56aeb5014d144ea2ce423acba32b07b36aed335bfac8a4aea32f340b",
+        "upload_hash": "05f847e5cbd478a65a310a9483762a4eaf66d20b675da0c7efadc05ded6f1afc",
+        "budget": {
+          "train_loss": 0.06769173849887375,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "sciq_accuracy": 0.8473473473473474,
+          "macro_accuracy": 0.8473473473473474,
+          "worst_domain_accuracy": 0.8473473473473474
+        }
+      },
+      "hellaswag": {
+        "start_function_hash": "f563d7c3e30e2e4119a4ea620d277669a8b50ec7d8c559f4e5e92f2057fcb72c",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "316dc0ae5bee61e765774a484c3b56c1c52876fe4efc16051322396fe386e623",
+        "upload_hash": "c7167e83bffaa7d65e97b5cfb3dac3a5417115b1bb06231ef033b9409d3992fb",
+        "budget": {
+          "train_loss": 0.1337735728620206,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "hellaswag_accuracy": 0.7673333333333333,
+          "macro_accuracy": 0.7673333333333333,
+          "worst_domain_accuracy": 0.7673333333333333
+        }
+      },
+      "race": {
+        "start_function_hash": "f563d7c3e30e2e4119a4ea620d277669a8b50ec7d8c559f4e5e92f2057fcb72c",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "a1b1053a35ffb425ae90ca46228617dd007ed1840bf402d2e2b173a1668130ab",
+        "upload_hash": "db5d4c52379e55a917afa583e391d7af2b8155dfd6f0adcfebdb19f129d6904b",
+        "budget": {
+          "train_loss": 0.21999364745955244,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "race_accuracy": 0.68,
+          "macro_accuracy": 0.68,
+          "worst_domain_accuracy": 0.68
+        }
+      }
+    }
+  },
+  {
+    "round": 12,
+    "metrics": {
+      "cosmosqa_accuracy": 0.6593333333333333,
+      "openbookqa_accuracy": 0.643,
+      "sciq_accuracy": 0.8323323323323323,
+      "hellaswag_accuracy": 0.6873333333333334,
+      "race_accuracy": 0.6473333333333333,
+      "macro_accuracy": 0.6938664664664664,
+      "worst_domain_accuracy": 0.643
+    },
+    "checkpoint": "outputs/fedlora20_server_seed42/fedrotlora/round_12/global/complete_state.pt",
+    "global_function_state_sha256": "fd9a11f149c7ea06df2c5654aef029043f619a1ee11b9fd15d63ac5f9529aa4a",
+    "lora_tensor_sha256": "808057af3efa238b8b00a8985a478d31f6ce9ba5a6c8d8cf6bcabc9c3c980604",
+    "start_function_hash": "79348c4ade4587dc7e8fca1bc63593b37f2c80583c04f399b2368b7cac6e5722",
+    "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+    "weights": {
+      "cosmosqa": 0.2,
+      "openbookqa": 0.2,
+      "sciq": 0.2,
+      "hellaswag": 0.2,
+      "race": 0.2
+    },
+    "clients": {
+      "cosmosqa": {
+        "start_function_hash": "79348c4ade4587dc7e8fca1bc63593b37f2c80583c04f399b2368b7cac6e5722",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "dbcc43799359ac4f96d3d3daab1a1633c772fceafa36afa3225dc6d3f56d78bf",
+        "upload_hash": "6d7726441b8ae974f41b5d88a426f4dd6f3f13e1bfb21b753b6094e830f9a241",
+        "budget": {
+          "train_loss": 0.15098419362111623,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "cosmosqa_accuracy": 0.6893333333333334,
+          "macro_accuracy": 0.6893333333333334,
+          "worst_domain_accuracy": 0.6893333333333334
+        }
+      },
+      "openbookqa": {
+        "start_function_hash": "79348c4ade4587dc7e8fca1bc63593b37f2c80583c04f399b2368b7cac6e5722",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "77b0e9b39654b74c5469111ff033ac34184ec60a033d58b5cde409ad3abaf28f",
+        "upload_hash": "1f5798adcccd85dc75c07e69bc5e6fcb7e036d89cdb4820d32a3a5e57aa7dd74",
+        "budget": {
+          "train_loss": 0.15250936335992504,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "openbookqa_accuracy": 0.686,
+          "macro_accuracy": 0.686,
+          "worst_domain_accuracy": 0.686
+        }
+      },
+      "sciq": {
+        "start_function_hash": "79348c4ade4587dc7e8fca1bc63593b37f2c80583c04f399b2368b7cac6e5722",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "ad6b499c6b41fd76a9996c24a0316eb8c078c00ef283e5cf7d5b9b3e1637d5bf",
+        "upload_hash": "081baf828d53ababf33821cacc3d52d01f473ae6d01bd93b9f1ddfe36cb2d853",
+        "budget": {
+          "train_loss": 0.06374061540329234,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "sciq_accuracy": 0.8458458458458459,
+          "macro_accuracy": 0.8458458458458459,
+          "worst_domain_accuracy": 0.8458458458458459
+        }
+      },
+      "hellaswag": {
+        "start_function_hash": "79348c4ade4587dc7e8fca1bc63593b37f2c80583c04f399b2368b7cac6e5722",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "2f62c2c9e1347e67e8a7025ad5d1fb9a5878f3c7c4bd5c7a030fc41cf04559ee",
+        "upload_hash": "ab4239b19d457fc76eda872b5e3d38655592b76d0933d90b8b5eb17b289a001b",
+        "budget": {
+          "train_loss": 0.11925012188441815,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "hellaswag_accuracy": 0.7713333333333333,
+          "macro_accuracy": 0.7713333333333333,
+          "worst_domain_accuracy": 0.7713333333333333
+        }
+      },
+      "race": {
+        "start_function_hash": "79348c4ade4587dc7e8fca1bc63593b37f2c80583c04f399b2368b7cac6e5722",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "675c73c800833afa310b53a32d6b8162285a378fab8a7b401e4bb2b2827e2120",
+        "upload_hash": "2decdad29e6ca266500544f4fd138576ab1cffed065049aa167e1ac44ad29a39",
+        "budget": {
+          "train_loss": 0.2011158296489348,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "race_accuracy": 0.668,
+          "macro_accuracy": 0.668,
+          "worst_domain_accuracy": 0.668
+        }
+      }
+    }
+  },
+  {
+    "round": 13,
+    "metrics": {
+      "cosmosqa_accuracy": 0.6526666666666666,
+      "openbookqa_accuracy": 0.652,
+      "sciq_accuracy": 0.8303303303303303,
+      "hellaswag_accuracy": 0.7073333333333334,
+      "race_accuracy": 0.6646666666666666,
+      "macro_accuracy": 0.7013993993993994,
+      "worst_domain_accuracy": 0.652
+    },
+    "checkpoint": "outputs/fedlora20_server_seed42/fedrotlora/round_13/global/complete_state.pt",
+    "global_function_state_sha256": "c0cec16f3476de165f46634ed737cc3ce7ee52d6931e573b3e6e1a34372a26f8",
+    "lora_tensor_sha256": "0729099f0b88032509894b4d7264b6623b8eeb3a4e803681515dafa1b502cb08",
+    "start_function_hash": "fd9a11f149c7ea06df2c5654aef029043f619a1ee11b9fd15d63ac5f9529aa4a",
+    "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+    "weights": {
+      "cosmosqa": 0.2,
+      "openbookqa": 0.2,
+      "sciq": 0.2,
+      "hellaswag": 0.2,
+      "race": 0.2
+    },
+    "clients": {
+      "cosmosqa": {
+        "start_function_hash": "fd9a11f149c7ea06df2c5654aef029043f619a1ee11b9fd15d63ac5f9529aa4a",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "72a87ab43c9ffe87b7274ba3595bbf182eee3067fd6e2378c421e35ab76f194e",
+        "upload_hash": "5e3f1d364c5331944a0a188b196a27d210aeca33ee25e8afbb1e2b568e7369c6",
+        "budget": {
+          "train_loss": 0.14226817376726558,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "cosmosqa_accuracy": 0.6633333333333333,
+          "macro_accuracy": 0.6633333333333333,
+          "worst_domain_accuracy": 0.6633333333333333
+        }
+      },
+      "openbookqa": {
+        "start_function_hash": "fd9a11f149c7ea06df2c5654aef029043f619a1ee11b9fd15d63ac5f9529aa4a",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "7b72233bf764c27575a92162ed414e271e9f1ea9d2cc9eb5e2a8d9f90775dd3b",
+        "upload_hash": "4d66818b7e1cc591263a648b7cb20b93436449ec44b538d674e3a27d2ee639dd",
+        "budget": {
+          "train_loss": 0.13510918594673013,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "openbookqa_accuracy": 0.709,
+          "macro_accuracy": 0.709,
+          "worst_domain_accuracy": 0.709
+        }
+      },
+      "sciq": {
+        "start_function_hash": "fd9a11f149c7ea06df2c5654aef029043f619a1ee11b9fd15d63ac5f9529aa4a",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "7a27b9386ae544b759b8bae96a2ba43ba465063a41244697babba991199ece26",
+        "upload_hash": "51c4189b51d442a00f2bfb403060d7f0be49fd43896b5826619ad23dd5c84a1e",
+        "budget": {
+          "train_loss": 0.056635605636439434,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "sciq_accuracy": 0.8448448448448449,
+          "macro_accuracy": 0.8448448448448449,
+          "worst_domain_accuracy": 0.8448448448448449
+        }
+      },
+      "hellaswag": {
+        "start_function_hash": "fd9a11f149c7ea06df2c5654aef029043f619a1ee11b9fd15d63ac5f9529aa4a",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "7f6378d224473a346801aa44a83e5c681eae335c4a3da1d430b0545fef2f85db",
+        "upload_hash": "100e0e3b6deaf98a7c6a2b1dfd2a88100960b3052ffd12e79adf74938ebb21d4",
+        "budget": {
+          "train_loss": 0.10769997752011301,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "hellaswag_accuracy": 0.7793333333333333,
+          "macro_accuracy": 0.7793333333333333,
+          "worst_domain_accuracy": 0.7793333333333333
+        }
+      },
+      "race": {
+        "start_function_hash": "fd9a11f149c7ea06df2c5654aef029043f619a1ee11b9fd15d63ac5f9529aa4a",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "8c69d3551a833ca052ecec3b3c9c8ef24a708fe06b934d95129ff5fb1b425081",
+        "upload_hash": "82f77f481a58202cc0709d0cac61977ae5111c7119b40e5236a70efb7716a6cc",
+        "budget": {
+          "train_loss": 0.18218331216756722,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "race_accuracy": 0.662,
+          "macro_accuracy": 0.662,
+          "worst_domain_accuracy": 0.662
+        }
+      }
+    }
+  },
+  {
+    "round": 14,
+    "metrics": {
+      "cosmosqa_accuracy": 0.6493333333333333,
+      "openbookqa_accuracy": 0.65,
+      "sciq_accuracy": 0.8328328328328328,
+      "hellaswag_accuracy": 0.7146666666666667,
+      "race_accuracy": 0.6446666666666667,
+      "macro_accuracy": 0.6982998998998999,
+      "worst_domain_accuracy": 0.6446666666666667
+    },
+    "checkpoint": "outputs/fedlora20_server_seed42/fedrotlora/round_14/global/complete_state.pt",
+    "global_function_state_sha256": "b34ca0d354c009a7943dc333413241fbc4698cf1e0bff9ded7cedfa53317e095",
+    "lora_tensor_sha256": "6274e2703391ffb624bc6d34e44daff69256f5ce095de0d99491c2e9150bc8c4",
+    "start_function_hash": "c0cec16f3476de165f46634ed737cc3ce7ee52d6931e573b3e6e1a34372a26f8",
+    "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+    "weights": {
+      "cosmosqa": 0.2,
+      "openbookqa": 0.2,
+      "sciq": 0.2,
+      "hellaswag": 0.2,
+      "race": 0.2
+    },
+    "clients": {
+      "cosmosqa": {
+        "start_function_hash": "c0cec16f3476de165f46634ed737cc3ce7ee52d6931e573b3e6e1a34372a26f8",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "6fc4122f1219d442d2abf9c7c3294a8476583750e3861eae2f580847d784a0bc",
+        "upload_hash": "6dee59cf3e8fe04e0e8c1b563c72838b51f047bc64996efc1fbdf9bbf87ce27c",
+        "budget": {
+          "train_loss": 0.12470732676330681,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "cosmosqa_accuracy": 0.6753333333333333,
+          "macro_accuracy": 0.6753333333333333,
+          "worst_domain_accuracy": 0.6753333333333333
+        }
+      },
+      "openbookqa": {
+        "start_function_hash": "c0cec16f3476de165f46634ed737cc3ce7ee52d6931e573b3e6e1a34372a26f8",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "d0422482488567590f0061dbb4b9cf028ee56a0d8867eb46aca539c20dccc4df",
+        "upload_hash": "111607655fefdfa219830a0033b7fcb8038c8c89dee36c086bdb0701554f6037",
+        "budget": {
+          "train_loss": 0.12335917405862273,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "openbookqa_accuracy": 0.7,
+          "macro_accuracy": 0.7,
+          "worst_domain_accuracy": 0.7
+        }
+      },
+      "sciq": {
+        "start_function_hash": "c0cec16f3476de165f46634ed737cc3ce7ee52d6931e573b3e6e1a34372a26f8",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "99212e8c85cb9a1e6f8102a50e283e500dec5692b99935cd365b9cf71798adae",
+        "upload_hash": "c99463ac541bb89de91181b74f4a0ed38606630bb21361fefa40c6bcbd3c473e",
+        "budget": {
+          "train_loss": 0.046846674639334764,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "sciq_accuracy": 0.8408408408408409,
+          "macro_accuracy": 0.8408408408408409,
+          "worst_domain_accuracy": 0.8408408408408409
+        }
+      },
+      "hellaswag": {
+        "start_function_hash": "c0cec16f3476de165f46634ed737cc3ce7ee52d6931e573b3e6e1a34372a26f8",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "42e4d05cdfa553112d087e6eba3b4f2e06297a9b507eb4fce3736beedd082451",
+        "upload_hash": "49c4d002048255106559db09743b662b4b86106233d71dcc7cbf379ddb184f60",
+        "budget": {
+          "train_loss": 0.09914449151283987,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "hellaswag_accuracy": 0.7813333333333333,
+          "macro_accuracy": 0.7813333333333333,
+          "worst_domain_accuracy": 0.7813333333333333
+        }
+      },
+      "race": {
+        "start_function_hash": "c0cec16f3476de165f46634ed737cc3ce7ee52d6931e573b3e6e1a34372a26f8",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "140824d96f630cfe7834a340588408ec8ff23b6b0ab74ba20679f25c24a459c6",
+        "upload_hash": "49dd823c6b13b41dde3c462e4edcef611d28d504e25e8bd307ec6bc4c186962c",
+        "budget": {
+          "train_loss": 0.16964396758430395,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "race_accuracy": 0.664,
+          "macro_accuracy": 0.664,
+          "worst_domain_accuracy": 0.664
+        }
+      }
+    }
+  },
+  {
+    "round": 15,
+    "metrics": {
+      "cosmosqa_accuracy": 0.6506666666666666,
+      "openbookqa_accuracy": 0.653,
+      "sciq_accuracy": 0.8348348348348348,
+      "hellaswag_accuracy": 0.7126666666666667,
+      "race_accuracy": 0.6526666666666666,
+      "macro_accuracy": 0.7007669669669669,
+      "worst_domain_accuracy": 0.6506666666666666
+    },
+    "checkpoint": "outputs/fedlora20_server_seed42/fedrotlora/round_15/global/complete_state.pt",
+    "global_function_state_sha256": "2a195d24382169b09c791e6329d5cb94d15649939d969a3ba422cd75c7a6b55a",
+    "lora_tensor_sha256": "dcf0c17c82d0b5391fa57d492bae369ecab14178e1a6d83d5c86120e14959502",
+    "start_function_hash": "b34ca0d354c009a7943dc333413241fbc4698cf1e0bff9ded7cedfa53317e095",
+    "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+    "weights": {
+      "cosmosqa": 0.2,
+      "openbookqa": 0.2,
+      "sciq": 0.2,
+      "hellaswag": 0.2,
+      "race": 0.2
+    },
+    "clients": {
+      "cosmosqa": {
+        "start_function_hash": "b34ca0d354c009a7943dc333413241fbc4698cf1e0bff9ded7cedfa53317e095",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "546157d3f177278d205a95d82d771538b1def0dfb85e47dd193fe01f36fb7f77",
+        "upload_hash": "156f7584266a9e07c6a95c48202eb15dc24867423c936b36da6ba8048d402237",
+        "budget": {
+          "train_loss": 0.11935392986703847,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "cosmosqa_accuracy": 0.6726666666666666,
+          "macro_accuracy": 0.6726666666666666,
+          "worst_domain_accuracy": 0.6726666666666666
+        }
+      },
+      "openbookqa": {
+        "start_function_hash": "b34ca0d354c009a7943dc333413241fbc4698cf1e0bff9ded7cedfa53317e095",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "f1186cb454c3f43a213f059ca3f46d3f0fe260823c980bc4a1ab2dcb03898b2f",
+        "upload_hash": "e6a0fc954f68271b94b2760285f260a19db09d2d84868201fe367412750f4b01",
+        "budget": {
+          "train_loss": 0.10552476404102606,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "openbookqa_accuracy": 0.7,
+          "macro_accuracy": 0.7,
+          "worst_domain_accuracy": 0.7
+        }
+      },
+      "sciq": {
+        "start_function_hash": "b34ca0d354c009a7943dc333413241fbc4698cf1e0bff9ded7cedfa53317e095",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "d93415d0a004bfec0d67bc91aae54c0ce882447cadc22d8dc3e1ff51ff2d083e",
+        "upload_hash": "406a580917782bf9af04b0210d42c32b36e5879b8a671e779228cdb6af4641e4",
+        "budget": {
+          "train_loss": 0.04648824680218536,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "sciq_accuracy": 0.8438438438438438,
+          "macro_accuracy": 0.8438438438438438,
+          "worst_domain_accuracy": 0.8438438438438438
+        }
+      },
+      "hellaswag": {
+        "start_function_hash": "b34ca0d354c009a7943dc333413241fbc4698cf1e0bff9ded7cedfa53317e095",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "af357b2cb8cc96d8bb09fd942db2c4ef39ae76019d6bf6f91eaf3e5e86f434cf",
+        "upload_hash": "27b63bf2af5e0b4ef109b390d305c8cb0b35634f9b560da9b8ea3988db6ac87e",
+        "budget": {
+          "train_loss": 0.09153277737100211,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "hellaswag_accuracy": 0.77,
+          "macro_accuracy": 0.77,
+          "worst_domain_accuracy": 0.77
+        }
+      },
+      "race": {
+        "start_function_hash": "b34ca0d354c009a7943dc333413241fbc4698cf1e0bff9ded7cedfa53317e095",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "03c33b5aa2ecb3a22366346629aa97eabed27f95284dbd929b8e901373e265ee",
+        "upload_hash": "e2585db4d90796163bca22531d03ed7507b3cad3e419fd73db3d2b2d65ff8dca",
+        "budget": {
+          "train_loss": 0.15646278481872627,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "race_accuracy": 0.674,
+          "macro_accuracy": 0.674,
+          "worst_domain_accuracy": 0.674
+        }
+      }
+    }
+  },
+  {
+    "round": 16,
+    "metrics": {
+      "cosmosqa_accuracy": 0.6466666666666666,
+      "openbookqa_accuracy": 0.655,
+      "sciq_accuracy": 0.8258258258258259,
+      "hellaswag_accuracy": 0.724,
+      "race_accuracy": 0.656,
+      "macro_accuracy": 0.7014984984984985,
+      "worst_domain_accuracy": 0.6466666666666666
+    },
+    "checkpoint": "outputs/fedlora20_server_seed42/fedrotlora/round_16/global/complete_state.pt",
+    "global_function_state_sha256": "0c0f9d69840d6bcf58493bddbc7833334c3570bda5e4203dbf8b879d2372e445",
+    "lora_tensor_sha256": "861dc6af9592a7bb630f73733d992ed581f7866e46a6a000c583d8f0bdd0b045",
+    "start_function_hash": "2a195d24382169b09c791e6329d5cb94d15649939d969a3ba422cd75c7a6b55a",
+    "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+    "weights": {
+      "cosmosqa": 0.2,
+      "openbookqa": 0.2,
+      "sciq": 0.2,
+      "hellaswag": 0.2,
+      "race": 0.2
+    },
+    "clients": {
+      "cosmosqa": {
+        "start_function_hash": "2a195d24382169b09c791e6329d5cb94d15649939d969a3ba422cd75c7a6b55a",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "24cb98108d04d23662ea78aeceaa818b28bc85974aff82515d62d9249232103e",
+        "upload_hash": "b0db3ff86a342ea3e1d5b04c45afb1973c05646b01e600e8eb3532af483296fc",
+        "budget": {
+          "train_loss": 0.10323659405945852,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "cosmosqa_accuracy": 0.6626666666666666,
+          "macro_accuracy": 0.6626666666666666,
+          "worst_domain_accuracy": 0.6626666666666666
+        }
+      },
+      "openbookqa": {
+        "start_function_hash": "2a195d24382169b09c791e6329d5cb94d15649939d969a3ba422cd75c7a6b55a",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "9cbfa8d5651284ebf92a88f419baa0af232883e8ba41f3c49d328ffedf55443f",
+        "upload_hash": "087de709b2996cf3f0db8f9d1582deffb1e8716a5d7cfff892d768fb9f7ad07b",
+        "budget": {
+          "train_loss": 0.10312812263968635,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "openbookqa_accuracy": 0.708,
+          "macro_accuracy": 0.708,
+          "worst_domain_accuracy": 0.708
+        }
+      },
+      "sciq": {
+        "start_function_hash": "2a195d24382169b09c791e6329d5cb94d15649939d969a3ba422cd75c7a6b55a",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "b965397a2cec4bcf9f492f9d90763200dd205ca50c1f8002ad6350d6b4dca20e",
+        "upload_hash": "2997dd59d7219b52586433611d060332f4e0c984d4855cb669c352a38795f48f",
+        "budget": {
+          "train_loss": 0.04311651801090605,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "sciq_accuracy": 0.8493493493493494,
+          "macro_accuracy": 0.8493493493493494,
+          "worst_domain_accuracy": 0.8493493493493494
+        }
+      },
+      "hellaswag": {
+        "start_function_hash": "2a195d24382169b09c791e6329d5cb94d15649939d969a3ba422cd75c7a6b55a",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "2ac94b6e85e35401948108dc89d784991c7a4a098f2883a3a48c8cf058e01d34",
+        "upload_hash": "4148c7cc89e34669971e1e855636351ece09aa5556f221365d17240dee1420e1",
+        "budget": {
+          "train_loss": 0.07895718141525038,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "hellaswag_accuracy": 0.772,
+          "macro_accuracy": 0.772,
+          "worst_domain_accuracy": 0.772
+        }
+      },
+      "race": {
+        "start_function_hash": "2a195d24382169b09c791e6329d5cb94d15649939d969a3ba422cd75c7a6b55a",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "2656e0e6e3730f59bde985f20fe3b3fdba2cafa0eb6936cdd688048607e1f08d",
+        "upload_hash": "e1db26243f8fe462373a839cd53cdb3895b59e093c557ecffc66da285a94059e",
+        "budget": {
+          "train_loss": 0.14459758346536386,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "race_accuracy": 0.6713333333333333,
+          "macro_accuracy": 0.6713333333333333,
+          "worst_domain_accuracy": 0.6713333333333333
+        }
+      }
+    }
+  },
+  {
+    "round": 17,
+    "metrics": {
+      "cosmosqa_accuracy": 0.6546666666666666,
+      "openbookqa_accuracy": 0.647,
+      "sciq_accuracy": 0.8308308308308309,
+      "hellaswag_accuracy": 0.7253333333333334,
+      "race_accuracy": 0.654,
+      "macro_accuracy": 0.7023661661661662,
+      "worst_domain_accuracy": 0.647
+    },
+    "checkpoint": "outputs/fedlora20_server_seed42/fedrotlora/round_17/global/complete_state.pt",
+    "global_function_state_sha256": "9810575d45e76171a542cfb98e0d646e9486f580947ce48f72e5a1f0bfdbc892",
+    "lora_tensor_sha256": "4b6e12976e0b7df6c60455ba0296adf7efd504ff42cc9970cc044b051900aa8a",
+    "start_function_hash": "0c0f9d69840d6bcf58493bddbc7833334c3570bda5e4203dbf8b879d2372e445",
+    "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+    "weights": {
+      "cosmosqa": 0.2,
+      "openbookqa": 0.2,
+      "sciq": 0.2,
+      "hellaswag": 0.2,
+      "race": 0.2
+    },
+    "clients": {
+      "cosmosqa": {
+        "start_function_hash": "0c0f9d69840d6bcf58493bddbc7833334c3570bda5e4203dbf8b879d2372e445",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "d832d1384be10292166830fa83cad2e8bac040f6909facb4184fdcc8d0b0a2e1",
+        "upload_hash": "6e9cc97a8590a41a9fd095b1c18d2e9378d2a73580a04322cf15cd8dd3dff049",
+        "budget": {
+          "train_loss": 0.09054383074142289,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "cosmosqa_accuracy": 0.674,
+          "macro_accuracy": 0.674,
+          "worst_domain_accuracy": 0.674
+        }
+      },
+      "openbookqa": {
+        "start_function_hash": "0c0f9d69840d6bcf58493bddbc7833334c3570bda5e4203dbf8b879d2372e445",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "3eea009867abfb2df26488dcf61fb5a618f4b8ae323fd6f995f44f9f9b5108fa",
+        "upload_hash": "757fea6c1324ca29d8150823a7d1136bd0b99ccbcce274fc503a8da95dcb1669",
+        "budget": {
+          "train_loss": 0.09866684901352585,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "openbookqa_accuracy": 0.693,
+          "macro_accuracy": 0.693,
+          "worst_domain_accuracy": 0.693
+        }
+      },
+      "sciq": {
+        "start_function_hash": "0c0f9d69840d6bcf58493bddbc7833334c3570bda5e4203dbf8b879d2372e445",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "0c38bc62f5d3ea7c0e60f064067285dc4eaa8f86f3ba4221c5ed9fa816d8b81e",
+        "upload_hash": "7657657ed5bd7da49dccb0ef64b0d535ad7c036a9ff9a33841a9b940a9c3b3fd",
+        "budget": {
+          "train_loss": 0.04406826805460092,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "sciq_accuracy": 0.8378378378378378,
+          "macro_accuracy": 0.8378378378378378,
+          "worst_domain_accuracy": 0.8378378378378378
+        }
+      },
+      "hellaswag": {
+        "start_function_hash": "0c0f9d69840d6bcf58493bddbc7833334c3570bda5e4203dbf8b879d2372e445",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "c67ae005f06a260a646d06a8b1f0c4e7886467cd60c866037144d817e32daefb",
+        "upload_hash": "96ee31473919f6d60fd08f64c2a2cfc0f67230ab31b236b513b92e0d9681aff8",
+        "budget": {
+          "train_loss": 0.07362669273253335,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "hellaswag_accuracy": 0.77,
+          "macro_accuracy": 0.77,
+          "worst_domain_accuracy": 0.77
+        }
+      },
+      "race": {
+        "start_function_hash": "0c0f9d69840d6bcf58493bddbc7833334c3570bda5e4203dbf8b879d2372e445",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "291e3f362b73ab03d983a916cf758397f50351c88d3de305fe51d5745842bb6f",
+        "upload_hash": "fed194d5718a0d97c13c374ee3dbe8d71d0a999b894729e17e3982fb612731ad",
+        "budget": {
+          "train_loss": 0.1337226497671884,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "race_accuracy": 0.68,
+          "macro_accuracy": 0.68,
+          "worst_domain_accuracy": 0.68
+        }
+      }
+    }
+  },
+  {
+    "round": 18,
+    "metrics": {
+      "cosmosqa_accuracy": 0.658,
+      "openbookqa_accuracy": 0.654,
+      "sciq_accuracy": 0.8228228228228228,
+      "hellaswag_accuracy": 0.7106666666666667,
+      "race_accuracy": 0.6593333333333333,
+      "macro_accuracy": 0.7009645645645646,
+      "worst_domain_accuracy": 0.654
+    },
+    "checkpoint": "outputs/fedlora20_server_seed42/fedrotlora/round_18/global/complete_state.pt",
+    "global_function_state_sha256": "3a69dce138799fa72d24b2c35ab89211b191bfaab39d78cad7da3ffec36f29c6",
+    "lora_tensor_sha256": "79976653a254b38add4463c269782f74fd6e0ff0d941fc04bbfd11f361c7a042",
+    "start_function_hash": "9810575d45e76171a542cfb98e0d646e9486f580947ce48f72e5a1f0bfdbc892",
+    "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+    "weights": {
+      "cosmosqa": 0.2,
+      "openbookqa": 0.2,
+      "sciq": 0.2,
+      "hellaswag": 0.2,
+      "race": 0.2
+    },
+    "clients": {
+      "cosmosqa": {
+        "start_function_hash": "9810575d45e76171a542cfb98e0d646e9486f580947ce48f72e5a1f0bfdbc892",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "a20d636b7b0aaf2588c5cc816964363ef780549df390d62bd5d552451ed1f81b",
+        "upload_hash": "2200e5adbd09be6e2d7ebe8d81caf3773951889b425731f39ecee06b301a1032",
+        "budget": {
+          "train_loss": 0.08860551660216788,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "cosmosqa_accuracy": 0.6753333333333333,
+          "macro_accuracy": 0.6753333333333333,
+          "worst_domain_accuracy": 0.6753333333333333
+        }
+      },
+      "openbookqa": {
+        "start_function_hash": "9810575d45e76171a542cfb98e0d646e9486f580947ce48f72e5a1f0bfdbc892",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "59830542143c26e7342c716524c5e32fdd5981b7bdee5b5e69db71377c91037c",
+        "upload_hash": "a28eed1230be864e211aef34d61bca5e017ff0bc52e7a806ed64a65ea72208ef",
+        "budget": {
+          "train_loss": 0.0836950447026299,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "openbookqa_accuracy": 0.711,
+          "macro_accuracy": 0.711,
+          "worst_domain_accuracy": 0.711
+        }
+      },
+      "sciq": {
+        "start_function_hash": "9810575d45e76171a542cfb98e0d646e9486f580947ce48f72e5a1f0bfdbc892",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "55137a6a90a1e997a03db432d047803f6f6fc7a9973827acb6f1e28cd77c4fc4",
+        "upload_hash": "06678346ecda2bdbe4271a0c4f765027ed552c49dc8318f0a0f427b67c2c8b78",
+        "budget": {
+          "train_loss": 0.04387498816832404,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "sciq_accuracy": 0.8393393393393394,
+          "macro_accuracy": 0.8393393393393394,
+          "worst_domain_accuracy": 0.8393393393393394
+        }
+      },
+      "hellaswag": {
+        "start_function_hash": "9810575d45e76171a542cfb98e0d646e9486f580947ce48f72e5a1f0bfdbc892",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "12f3933436b874a71ebfd9d951cc6502c3e8085e3a803f709295e93ec957e053",
+        "upload_hash": "46262a4706e5fbf9f0c4aaa62103db67f15b445e600f04fdc80a2715adecfbd9",
+        "budget": {
+          "train_loss": 0.05836532740847656,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "hellaswag_accuracy": 0.7686666666666667,
+          "macro_accuracy": 0.7686666666666667,
+          "worst_domain_accuracy": 0.7686666666666667
+        }
+      },
+      "race": {
+        "start_function_hash": "9810575d45e76171a542cfb98e0d646e9486f580947ce48f72e5a1f0bfdbc892",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "8922d62c4a01647fdcd14b894ff6375120e20e9fe156bc741509d312c107014f",
+        "upload_hash": "5e4e3a6dc18c2f6146d5544a6dff5ec500914359ca63d095585c5f98b7e3af25",
+        "budget": {
+          "train_loss": 0.12346106099199392,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "race_accuracy": 0.6686666666666666,
+          "macro_accuracy": 0.6686666666666666,
+          "worst_domain_accuracy": 0.6686666666666666
+        }
+      }
+    }
+  },
+  {
+    "round": 19,
+    "metrics": {
+      "cosmosqa_accuracy": 0.6513333333333333,
+      "openbookqa_accuracy": 0.655,
+      "sciq_accuracy": 0.8333333333333334,
+      "hellaswag_accuracy": 0.7186666666666667,
+      "race_accuracy": 0.6586666666666666,
+      "macro_accuracy": 0.7034,
+      "worst_domain_accuracy": 0.6513333333333333
+    },
+    "checkpoint": "outputs/fedlora20_server_seed42/fedrotlora/round_19/global/complete_state.pt",
+    "global_function_state_sha256": "838e61acdf0d2a40a36601db9eed180f1b5a8fe879caf32e759cac5db49606cd",
+    "lora_tensor_sha256": "0330d2a654170b4ed6b39f98d23283a2a455b32b3c606c0fd9b7ca2fb3dd1c69",
+    "start_function_hash": "3a69dce138799fa72d24b2c35ab89211b191bfaab39d78cad7da3ffec36f29c6",
+    "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+    "weights": {
+      "cosmosqa": 0.2,
+      "openbookqa": 0.2,
+      "sciq": 0.2,
+      "hellaswag": 0.2,
+      "race": 0.2
+    },
+    "clients": {
+      "cosmosqa": {
+        "start_function_hash": "3a69dce138799fa72d24b2c35ab89211b191bfaab39d78cad7da3ffec36f29c6",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "a523b01e2c46e0c853a43ac7a9eaff4eeba410504417df666cc091f2d8b84eb5",
+        "upload_hash": "3768425694bda029cef52562a30d3cd0283e70f42a67233908802b4c7412142c",
+        "budget": {
+          "train_loss": 0.08581569381666145,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "cosmosqa_accuracy": 0.6766666666666666,
+          "macro_accuracy": 0.6766666666666666,
+          "worst_domain_accuracy": 0.6766666666666666
+        }
+      },
+      "openbookqa": {
+        "start_function_hash": "3a69dce138799fa72d24b2c35ab89211b191bfaab39d78cad7da3ffec36f29c6",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "1ee485208870ec91a0aa4b3470d2abc4e7e8b38d14b1e52b6b3d69b16c50439a",
+        "upload_hash": "5ebfa979d5b340b8b82261946c8c19e59dcf8753b3269e16add5d95b01f2ac2f",
+        "budget": {
+          "train_loss": 0.08155037666414225,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "openbookqa_accuracy": 0.709,
+          "macro_accuracy": 0.709,
+          "worst_domain_accuracy": 0.709
+        }
+      },
+      "sciq": {
+        "start_function_hash": "3a69dce138799fa72d24b2c35ab89211b191bfaab39d78cad7da3ffec36f29c6",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "b7be2929799bd0ea4f91b4d876a00fe3aebf00c2ca1518cf8859ca1b2aa8c7d5",
+        "upload_hash": "a5b8c9d79c935c053a04170145b99e8fe510a9c2fe7cd2f8bee924a403170582",
+        "budget": {
+          "train_loss": 0.032072136768016915,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "sciq_accuracy": 0.8493493493493494,
+          "macro_accuracy": 0.8493493493493494,
+          "worst_domain_accuracy": 0.8493493493493494
+        }
+      },
+      "hellaswag": {
+        "start_function_hash": "3a69dce138799fa72d24b2c35ab89211b191bfaab39d78cad7da3ffec36f29c6",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "61f7e9cc5504841d833470aac016dc80f5495a81a965cfde8784e1de3373779c",
+        "upload_hash": "0124386b7bb139ac9c03e4f97a236f2e0ce4e07c4986b7d8294319c27416cc2e",
+        "budget": {
+          "train_loss": 0.05885602683233094,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "hellaswag_accuracy": 0.7546666666666667,
+          "macro_accuracy": 0.7546666666666667,
+          "worst_domain_accuracy": 0.7546666666666667
+        }
+      },
+      "race": {
+        "start_function_hash": "3a69dce138799fa72d24b2c35ab89211b191bfaab39d78cad7da3ffec36f29c6",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "5a838eb417391fde668544121c45a518284865ceb9c4abd4015fa2af005628e1",
+        "upload_hash": "f4024511ad400d9b1440c0d579d8863211caef883f4984e116231f122b0bb3a2",
+        "budget": {
+          "train_loss": 0.1045817398755662,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "race_accuracy": 0.66,
+          "macro_accuracy": 0.66,
+          "worst_domain_accuracy": 0.66
+        }
+      }
+    }
+  },
+  {
+    "round": 20,
+    "metrics": {
+      "cosmosqa_accuracy": 0.6633333333333333,
+      "openbookqa_accuracy": 0.648,
+      "sciq_accuracy": 0.8288288288288288,
+      "hellaswag_accuracy": 0.722,
+      "race_accuracy": 0.6486666666666666,
+      "macro_accuracy": 0.7021657657657657,
+      "worst_domain_accuracy": 0.648
+    },
+    "checkpoint": "outputs/fedlora20_server_seed42/fedrotlora/round_20/global/complete_state.pt",
+    "global_function_state_sha256": "846f2aef6c6d4169a9b177319806cff638f7897540bdadc80c734f35123f78ab",
+    "lora_tensor_sha256": "44fa2fc7731a6f30236b171ab7dd280a7d91bb9e3d05bdca7d136c9bb6c88404",
+    "start_function_hash": "838e61acdf0d2a40a36601db9eed180f1b5a8fe879caf32e759cac5db49606cd",
+    "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+    "weights": {
+      "cosmosqa": 0.2,
+      "openbookqa": 0.2,
+      "sciq": 0.2,
+      "hellaswag": 0.2,
+      "race": 0.2
+    },
+    "clients": {
+      "cosmosqa": {
+        "start_function_hash": "838e61acdf0d2a40a36601db9eed180f1b5a8fe879caf32e759cac5db49606cd",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "ac37f62b815ce0115fc7fda361794eb08ca58e543f94c971751b228fe0ad2499",
+        "upload_hash": "64a63bf6337acbe15151d89955d0bc0bacc62cd3305e53c3489ec3480ae30173",
+        "budget": {
+          "train_loss": 0.07405074336022938,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "cosmosqa_accuracy": 0.6706666666666666,
+          "macro_accuracy": 0.6706666666666666,
+          "worst_domain_accuracy": 0.6706666666666666
+        }
+      },
+      "openbookqa": {
+        "start_function_hash": "838e61acdf0d2a40a36601db9eed180f1b5a8fe879caf32e759cac5db49606cd",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "b0e76790949282a7f8fc694426dfbaeeb9f36f1a4543e97e026e8a9c70fff816",
+        "upload_hash": "1352498d5d1f3b1c12e92d2c2028a9877b13c3e838ae80dfe809e78c969bf915",
+        "budget": {
+          "train_loss": 0.0708154926649386,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "openbookqa_accuracy": 0.692,
+          "macro_accuracy": 0.692,
+          "worst_domain_accuracy": 0.692
+        }
+      },
+      "sciq": {
+        "start_function_hash": "838e61acdf0d2a40a36601db9eed180f1b5a8fe879caf32e759cac5db49606cd",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "1d57b60781f8af13340f0388c39ccd6e1e5b7ecd16b6ed395be8659a9ca27420",
+        "upload_hash": "c3222cc723ac5e353f3d7d2cfe49f96a0ae042f985c547c66446352c1c8b2d58",
+        "budget": {
+          "train_loss": 0.03099483974147332,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "sciq_accuracy": 0.8368368368368369,
+          "macro_accuracy": 0.8368368368368369,
+          "worst_domain_accuracy": 0.8368368368368369
+        }
+      },
+      "hellaswag": {
+        "start_function_hash": "838e61acdf0d2a40a36601db9eed180f1b5a8fe879caf32e759cac5db49606cd",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "8e25b88e9be7b8e1e4b58458dc1dbe298ee4bda2427792a6c2e89b1d7cd983ee",
+        "upload_hash": "a0d81e1c2877f25ac96d96449cc36843976872b397a4dbccf80b7aeb35630a39",
+        "budget": {
+          "train_loss": 0.050702392492802915,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "hellaswag_accuracy": 0.7586666666666667,
+          "macro_accuracy": 0.7586666666666667,
+          "worst_domain_accuracy": 0.7586666666666667
+        }
+      },
+      "race": {
+        "start_function_hash": "838e61acdf0d2a40a36601db9eed180f1b5a8fe879caf32e759cac5db49606cd",
+        "start_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+        "raw_hash": "95bb4f89b2ec9afb3a404b1d6c130d126f8b4059f08227936a7c9538fd180284",
+        "upload_hash": "4fe9f63613e0fd414fddab1941d293612249496279df7c6ebe1db354f748c545",
+        "budget": {
+          "train_loss": 0.10641126749020419,
+          "samples": 4000,
+          "optimizer_updates": 500
+        },
+        "local_after": {
+          "race_accuracy": 0.658,
+          "macro_accuracy": 0.658,
+          "worst_domain_accuracy": 0.658
+        }
+      }
+    }
+  }
+]

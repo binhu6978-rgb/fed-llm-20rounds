@@ -1,0 +1,14 @@
+{
+  "function_state_sha256": "16fbcf50aceca468ea2084702b304f11b3c151c40a5904d59cf148f12bf40caa",
+  "checkpoint": "outputs/fedlora20_server_seed42/fedmomentum/round_14/global/complete_state.pt",
+  "domains": [
+    "cosmosqa",
+    "openbookqa",
+    "sciq",
+    "hellaswag",
+    "race"
+  ],
+  "round": 14,
+  "canonical_base_sha256": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+  "backbone_included": true
+}

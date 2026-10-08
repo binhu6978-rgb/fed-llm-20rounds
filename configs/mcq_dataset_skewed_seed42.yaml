@@ -1,0 +1,20 @@
+model_path: models/models--llama3.2-1B
+initial_lora: models/initial_lora/seed42_r8_alpha32_qv.pt
+dataset_dir: dataset/mcq_balanced4000
+output_dir: exp/mcq_dataset_skewed_seed42
+domains: [race, logiqa, openbookqa, sciq]
+seed: 42
+rounds: 10
+client_num: 4
+participation: 1.0
+aggregation_weights: [0.25, 0.25, 0.25, 0.25]
+samples_per_client: 4000
+batch_size: 1
+gradient_accumulation: 8
+local_epochs: 1
+step: 0
+learning_rate: 0.0001
+lora_rank: 8
+lora_alpha: 32
+lora_dropout: 0.05
+eval_batch_size: 8

@@ -1,0 +1,10 @@
+{
+  "function_state_sha256": "008f4bf3326f354b9caf7c460636f0a4c12934d0a2cf325d4dadc8e5927474a0",
+  "checkpoint": "outputs/fedlora20_server_seed42/flexlora/round_12/client_sciq/raw_lora.pt",
+  "domains": [
+    "sciq"
+  ],
+  "round": 12,
+  "canonical_base_sha256": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+  "backbone_included": false
+}

@@ -1,0 +1,14 @@
+{
+  "function_state_sha256": "c0492786e139b002c05409f9a040125ba97d12b61607a0b3ce4471e2c9cb7c32",
+  "checkpoint": "outputs/fedlora20_server_seed42/flexlora/round_16/global/complete_state.pt",
+  "domains": [
+    "cosmosqa",
+    "openbookqa",
+    "sciq",
+    "hellaswag",
+    "race"
+  ],
+  "round": 16,
+  "canonical_base_sha256": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+  "backbone_included": false
+}

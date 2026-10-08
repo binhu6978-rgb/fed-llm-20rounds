@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "smoke": false,
+  "rounds": 10,
+  "client_epochs": 50,
+  "sample_visits": 200000,
+  "optimizer_updates": 25000,
+  "canonical_initial": true,
+  "rank8": true,
+  "base_frozen_during_local": true,
+  "same_complete_global_start_per_client": true,
+  "merged_backbone_persisted": true,
+  "evaluation_includes_complete_backbone": true,
+  "one_shared_model": true,
+  "heterogeneous_rank": false,
+  "test_counts": {
+    "cosmosqa": 1500,
+    "openbookqa": 1000,
+    "sciq": 1998,
+    "hellaswag": 1500,
+    "race": 1500
+  },
+  "full_test_sets": true,
+  "algorithm_source_unchanged": true
+}

@@ -1,0 +1,10 @@
+{
+  "function_state_sha256": "4babf1abc392f1e41ba0d45116753de4f430f12858d30d3026a103e26b7e1dd7",
+  "checkpoint": "outputs/fedlora20_server_seed42/flexlora/round_18/client_openbookqa/raw_lora.pt",
+  "domains": [
+    "openbookqa"
+  ],
+  "round": 18,
+  "canonical_base_sha256": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+  "backbone_included": false
+}

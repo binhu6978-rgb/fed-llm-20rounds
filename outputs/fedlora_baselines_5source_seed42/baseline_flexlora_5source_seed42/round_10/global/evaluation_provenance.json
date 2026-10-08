@@ -1,0 +1,19 @@
+{
+  "lora_tensor_sha256": "07dba5a85cf6ca341e8547ad208a15bf5ad2276be23e41a6af4cc51e9dd07908",
+  "checkpoint": "outputs\\fedlora_baselines_5source_seed42\\baseline_flexlora_5source_seed42\\round_10\\global\\complete_state.pt",
+  "domains": [
+    "cosmosqa",
+    "openbookqa",
+    "sciq",
+    "hellaswag",
+    "race"
+  ],
+  "combined_test_manifest_sha256": "6d7379d993798888f558fe57dececfa2c93712332e1f49bc03efa170988746bd",
+  "evaluated_at": "2026-10-05T14:18:06.002960+00:00",
+  "global_function_state_sha256": "1f28dbda11ca7dbbba38afc5d87dcd8f1839c8eacb8039401935f7dbd7a0c740",
+  "canonical_model": "models/models--llama3.2-1B",
+  "complete_checkpoint": "outputs\\fedlora_baselines_5source_seed42\\baseline_flexlora_5source_seed42\\round_10\\global\\complete_state.pt",
+  "checkpoint_sha256": "1101204e1a2163907d943a19af4d0eed3870fba947873b855f532e06eba53f4b",
+  "canonical_mutable_backbone_sha256": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+  "mutated_backbone_included": false
+}

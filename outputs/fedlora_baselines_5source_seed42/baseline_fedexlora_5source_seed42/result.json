@@ -1,0 +1,50 @@
+{
+  "best_round": 10,
+  "best_metrics": {
+    "cosmosqa_accuracy": 0.646,
+    "openbookqa_accuracy": 0.641,
+    "sciq_accuracy": 0.8323323323323323,
+    "hellaswag_accuracy": 0.6926666666666667,
+    "race_accuracy": 0.6413333333333333,
+    "macro_accuracy": 0.6906664664664665,
+    "worst_domain_accuracy": 0.641
+  },
+  "best_checkpoint": "outputs\\fedlora_baselines_5source_seed42\\baseline_fedexlora_5source_seed42\\round_10\\global\\complete_state.pt",
+  "final_round": 10,
+  "final_metrics": {
+    "cosmosqa_accuracy": 0.646,
+    "openbookqa_accuracy": 0.641,
+    "sciq_accuracy": 0.8323323323323323,
+    "hellaswag_accuracy": 0.6926666666666667,
+    "race_accuracy": 0.6413333333333333,
+    "macro_accuracy": 0.6906664664664665,
+    "worst_domain_accuracy": 0.641
+  },
+  "final_checkpoint": "outputs\\fedlora_baselines_5source_seed42\\baseline_fedexlora_5source_seed42\\round_10\\global\\complete_state.pt",
+  "oracle_diagnostics": {
+    "cosmosqa": {
+      "round": 8,
+      "accuracy": 0.646
+    },
+    "openbookqa": {
+      "round": 8,
+      "accuracy": 0.644
+    },
+    "sciq": {
+      "round": 9,
+      "accuracy": 0.8368368368368369
+    },
+    "hellaswag": {
+      "round": 10,
+      "accuracy": 0.6926666666666667
+    },
+    "race": {
+      "round": 8,
+      "accuracy": 0.6473333333333333
+    }
+  },
+  "method": "fedexlora",
+  "warnings": [
+    "The unchanged implementation adds sum(w_i B_i A_i) - mean(B_i)mean(A_i) to base weights without alpha/r=4. It uses product aggregation, but is not mathematically exact for the full scaled LoRA function under this protocol (also subject to BF16 merge rounding)."
+  ]
+}

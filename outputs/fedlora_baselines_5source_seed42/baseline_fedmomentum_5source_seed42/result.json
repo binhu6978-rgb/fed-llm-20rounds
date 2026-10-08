@@ -1,0 +1,50 @@
+{
+  "best_round": 10,
+  "best_metrics": {
+    "cosmosqa_accuracy": 0.6333333333333333,
+    "openbookqa_accuracy": 0.649,
+    "sciq_accuracy": 0.8308308308308309,
+    "hellaswag_accuracy": 0.706,
+    "race_accuracy": 0.6473333333333333,
+    "macro_accuracy": 0.6932994994994994,
+    "worst_domain_accuracy": 0.6333333333333333
+  },
+  "best_checkpoint": "outputs\\fedlora_baselines_5source_seed42\\baseline_fedmomentum_5source_seed42\\round_10\\global\\complete_state.pt",
+  "final_round": 10,
+  "final_metrics": {
+    "cosmosqa_accuracy": 0.6333333333333333,
+    "openbookqa_accuracy": 0.649,
+    "sciq_accuracy": 0.8308308308308309,
+    "hellaswag_accuracy": 0.706,
+    "race_accuracy": 0.6473333333333333,
+    "macro_accuracy": 0.6932994994994994,
+    "worst_domain_accuracy": 0.6333333333333333
+  },
+  "final_checkpoint": "outputs\\fedlora_baselines_5source_seed42\\baseline_fedmomentum_5source_seed42\\round_10\\global\\complete_state.pt",
+  "oracle_diagnostics": {
+    "cosmosqa": {
+      "round": 9,
+      "accuracy": 0.6366666666666667
+    },
+    "openbookqa": {
+      "round": 9,
+      "accuracy": 0.651
+    },
+    "sciq": {
+      "round": 6,
+      "accuracy": 0.8368368368368369
+    },
+    "hellaswag": {
+      "round": 10,
+      "accuracy": 0.706
+    },
+    "race": {
+      "round": 9,
+      "accuracy": 0.6486666666666666
+    }
+  },
+  "method": "fedmomentum",
+  "warnings": [
+    "The unchanged implementation merges residual B@A components into base without alpha/r=4. The complete mutated backbone is saved; the mathematical implementation is not changed."
+  ]
+}

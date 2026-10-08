@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "file_hash_validation": false,
+  "methods": [
+    "fedexlora",
+    "fedrotlora",
+    "flexlora",
+    "fedmomentum"
+  ],
+  "source_rounds": 10,
+  "target_rounds": 20,
+  "train": 20000,
+  "test": 7498,
+  "packages": {
+    "torch": "2.7.1+cu118",
+    "transformers": "4.57.6",
+    "peft": "0.20.0",
+    "numpy": "2.1.2",
+    "datasets": "4.2.0",
+    "safetensors": "0.6.2",
+    "PyYAML": "6.0.3",
+    "accelerate": "1.14.0"
+  },
+  "python": "3.12.0 | packaged by Anaconda, Inc. | (main, Oct  2 2023, 17:29:18) [GCC 11.2.0]",
+  "platform": "linux",
+  "source_environment": {
+    "interpreter": "D:\\sofrware\\anaconda3\\envs\\wzm\\python.exe",
+    "python": "3.12.11 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 12:58:53) [MSC v.1929 64 bit (AMD64)]",
+    "packages": {
+      "torch": "2.10.0.dev20251013+cu128",
+      "transformers": "4.57.6",
+      "peft": "0.20.0",
+      "numpy": "2.1.2",
+      "safetensors": "0.6.2"
+    },
+    "recorded_at": "2026-10-04T17:05:37.555143+00:00"
+  },
+  "cross_machine_bitwise_identity_guaranteed": false
+}

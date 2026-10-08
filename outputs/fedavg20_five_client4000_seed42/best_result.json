@@ -1,0 +1,34 @@
+{
+  "completed_round": 20,
+  "best_round": 15,
+  "best_metrics": {
+    "cosmosqa_accuracy": 0.6606666666666666,
+    "openbookqa_accuracy": 0.641,
+    "sciq_accuracy": 0.8283283283283284,
+    "hellaswag_accuracy": 0.7273333333333334,
+    "race_accuracy": 0.648,
+    "macro_accuracy": 0.7010656656656657,
+    "worst_domain_accuracy": 0.641
+  },
+  "best_checkpoint": "outputs\\fedavg20_five_client4000_seed42\\round_15\\global\\lora_weights.pt",
+  "latest_metrics": {
+    "cosmosqa_accuracy": 0.648,
+    "openbookqa_accuracy": 0.655,
+    "sciq_accuracy": 0.8243243243243243,
+    "hellaswag_accuracy": 0.7213333333333334,
+    "race_accuracy": 0.6506666666666666,
+    "macro_accuracy": 0.6998648648648649,
+    "worst_domain_accuracy": 0.648
+  },
+  "round10_reference": {
+    "cosmosqa_accuracy": 0.6366666666666667,
+    "openbookqa_accuracy": 0.652,
+    "sciq_accuracy": 0.8323323323323323,
+    "hellaswag_accuracy": 0.698,
+    "race_accuracy": 0.6493333333333333,
+    "macro_accuracy": 0.6936664664664665,
+    "worst_domain_accuracy": 0.6366666666666667
+  },
+  "delta_best_vs_round10_pp": 0.7399199199199291,
+  "training_budget_doubled_at_round20": true
+}

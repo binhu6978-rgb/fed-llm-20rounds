@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "rounds": 20,
+  "reused_rounds": 10,
+  "new_rounds": 10,
+  "client_epochs": 100,
+  "optimizer_updates": 50000,
+  "sample_visits": 400000,
+  "original_rounds_unchanged": true,
+  "source_files_unchanged": true,
+  "full_original_test_sets": true,
+  "local_own_domain_before_upload_each_round": true,
+  "absolute_round_seed_continuation": true,
+  "canonical_frozen_base": true,
+  "previous_global_is_next_start": true
+}

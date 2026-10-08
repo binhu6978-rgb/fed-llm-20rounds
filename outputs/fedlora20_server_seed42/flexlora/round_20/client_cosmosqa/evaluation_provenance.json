@@ -1,0 +1,10 @@
+{
+  "function_state_sha256": "f8e1f3b7bff6b02f0c0620a949f66a1ced5eb4e203d6dd2ded475d30161103ce",
+  "checkpoint": "outputs/fedlora20_server_seed42/flexlora/round_20/client_cosmosqa/raw_lora.pt",
+  "domains": [
+    "cosmosqa"
+  ],
+  "round": 20,
+  "canonical_base_sha256": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+  "backbone_included": false
+}

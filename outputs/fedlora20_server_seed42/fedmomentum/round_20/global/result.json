@@ -1,0 +1,9 @@
+{
+  "cosmosqa_accuracy": 0.652,
+  "openbookqa_accuracy": 0.659,
+  "sciq_accuracy": 0.8298298298298298,
+  "hellaswag_accuracy": 0.726,
+  "race_accuracy": 0.658,
+  "macro_accuracy": 0.704965965965966,
+  "worst_domain_accuracy": 0.652
+}

@@ -1,0 +1,35 @@
+{
+  "method": "fedrotlora",
+  "smoke": false,
+  "completed_round": 20,
+  "best_round": 19,
+  "best_metrics": {
+    "cosmosqa_accuracy": 0.6513333333333333,
+    "openbookqa_accuracy": 0.655,
+    "sciq_accuracy": 0.8333333333333334,
+    "hellaswag_accuracy": 0.7186666666666667,
+    "race_accuracy": 0.6586666666666666,
+    "macro_accuracy": 0.7034,
+    "worst_domain_accuracy": 0.6513333333333333
+  },
+  "best_checkpoint": "outputs/fedlora20_server_seed42/fedrotlora/round_19/global/complete_state.pt",
+  "final_metrics": {
+    "cosmosqa_accuracy": 0.6633333333333333,
+    "openbookqa_accuracy": 0.648,
+    "sciq_accuracy": 0.8288288288288288,
+    "hellaswag_accuracy": 0.722,
+    "race_accuracy": 0.6486666666666666,
+    "macro_accuracy": 0.7021657657657657,
+    "worst_domain_accuracy": 0.648
+  },
+  "round10_metrics": {
+    "cosmosqa_accuracy": 0.6346666666666667,
+    "openbookqa_accuracy": 0.648,
+    "sciq_accuracy": 0.8283283283283284,
+    "hellaswag_accuracy": 0.69,
+    "race_accuracy": 0.6466666666666666,
+    "macro_accuracy": 0.6895323323323324,
+    "worst_domain_accuracy": 0.6346666666666667
+  },
+  "delta_best_vs_round10_pp": 1.3867667667667671
+}

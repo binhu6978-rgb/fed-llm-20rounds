@@ -1,0 +1,5 @@
+{
+  "openbookqa_accuracy": 0.689,
+  "macro_accuracy": 0.689,
+  "worst_domain_accuracy": 0.689
+}

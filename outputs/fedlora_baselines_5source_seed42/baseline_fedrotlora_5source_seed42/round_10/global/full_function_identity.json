@@ -1,0 +1,8 @@
+{
+  "global_function_state_sha256": "f563d7c3e30e2e4119a4ea620d277669a8b50ec7d8c559f4e5e92f2057fcb72c",
+  "canonical_model": "models/models--llama3.2-1B",
+  "complete_checkpoint": "outputs\\fedlora_baselines_5source_seed42\\baseline_fedrotlora_5source_seed42\\round_10\\global\\complete_state.pt",
+  "checkpoint_sha256": "48f6b88bd403b83e561fa6a694b6210398c342f0350d5bb6f07dd906fcd347d3",
+  "canonical_mutable_backbone_sha256": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+  "mutated_backbone_included": false
+}

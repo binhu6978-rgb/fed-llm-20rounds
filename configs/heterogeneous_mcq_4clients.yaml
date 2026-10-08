@@ -1,0 +1,13 @@
+# Shared, fixed protocol for the new four-client experiment.
+model_path: models/models--llama3.2-1B
+seed: 42
+rounds_or_epochs: 10
+learning_rate: 0.0001
+batch_size: 1
+gradient_accumulation: 8
+lora_rank: 8
+lora_alpha: 32
+lora_dropout: 0.05
+eval_batch_size: 8
+client_num: 4
+participation: 1.0
