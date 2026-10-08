@@ -1,0 +1,41 @@
+
+START 2026-10-07T15:31:38.872211+00:00
+TRANSFER CHECK PASSED (file hashes disabled): four complete round10 states; 20000 train / 7498 tests
+SERVER ENVIRONMENT {'torch': '2.7.1+cu118', 'transformers': '4.57.6', 'peft': '0.20.0', 'numpy': '2.1.2', 'datasets': '4.2.0', 'safetensors': '0.6.2', 'PyYAML': '6.0.3', 'accelerate': '1.14.0'}
+CUDA_VISIBLE_DEVICES=1 is already set; leaving it in place instead of overriding --device 0.
+TRAIN fedexlora 11 cosmosqa 8 / 8
+Round 11 Client 0: samples=8 updates=1 loss=0.135289
+Round 11 Test: cosmosqa_accuracy=0.638667 macro_accuracy=0.638667 worst_domain_accuracy=0.638667
+TRAIN fedexlora 11 openbookqa 8 / 8
+Round 11 Client 1: samples=8 updates=1 loss=0.147890
+Round 11 Test: openbookqa_accuracy=0.654000 macro_accuracy=0.654000 worst_domain_accuracy=0.654000
+TRAIN fedexlora 11 sciq 8 / 8
+Round 11 Client 2: samples=8 updates=1 loss=0.087200
+Round 11 Test: sciq_accuracy=0.827828 macro_accuracy=0.827828 worst_domain_accuracy=0.827828
+TRAIN fedexlora 11 hellaswag 8 / 8
+Round 11 Client 3: samples=8 updates=1 loss=0.143022
+Round 11 Test: hellaswag_accuracy=0.702000 macro_accuracy=0.702000 worst_domain_accuracy=0.702000
+TRAIN fedexlora 11 race 8 / 8
+Round 11 Client 4: samples=8 updates=1 loss=0.115817
+Round 11 Test: race_accuracy=0.647333 macro_accuracy=0.647333 worst_domain_accuracy=0.647333
+Aggregated model updated.
+Round 11 Test: cosmosqa_accuracy=0.642000 openbookqa_accuracy=0.644000 sciq_accuracy=0.831331 hellaswag_accuracy=0.694667 race_accuracy=0.644000 macro_accuracy=0.691200 worst_domain_accuracy=0.642000
+ROUND fedexlora 11 GLOBAL MACRO 0.6911995995995996
+TRAIN fedexlora 12 cosmosqa 8 / 8
+Round 12 Client 0: samples=8 updates=1 loss=0.106595
+Round 12 Test: cosmosqa_accuracy=0.639333 macro_accuracy=0.639333 worst_domain_accuracy=0.639333
+TRAIN fedexlora 12 openbookqa 8 / 8
+Round 12 Client 1: samples=8 updates=1 loss=0.090186
+Round 12 Test: openbookqa_accuracy=0.648000 macro_accuracy=0.648000 worst_domain_accuracy=0.648000
+TRAIN fedexlora 12 sciq 8 / 8
+Round 12 Client 2: samples=8 updates=1 loss=0.054497
+Round 12 Test: sciq_accuracy=0.827828 macro_accuracy=0.827828 worst_domain_accuracy=0.827828
+TRAIN fedexlora 12 hellaswag 8 / 8
+Round 12 Client 3: samples=8 updates=1 loss=0.123597
+Round 12 Test: hellaswag_accuracy=0.704000 macro_accuracy=0.704000 worst_domain_accuracy=0.704000
+TRAIN fedexlora 12 race 8 / 8
+Round 12 Client 4: samples=8 updates=1 loss=0.037621
+Round 12 Test: race_accuracy=0.648000 macro_accuracy=0.648000 worst_domain_accuracy=0.648000
+Aggregated model updated.
+Round 12 Test: cosmosqa_accuracy=0.642667 openbookqa_accuracy=0.644000 sciq_accuracy=0.829830 hellaswag_accuracy=0.694667 race_accuracy=0.647333 macro_accuracy=0.691699 worst_domain_accuracy=0.642667
+ROUND fedexlora 12 GLOBAL MACRO 0.6916992992992993

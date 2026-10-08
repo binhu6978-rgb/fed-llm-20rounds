@@ -1,0 +1,8 @@
+{
+  "stage": "complete",
+  "pid": 192158,
+  "updated_at": "2026-10-07T15:38:07.633873+00:00",
+  "method": "fedrotlora",
+  "round": 12,
+  "smoke": true
+}

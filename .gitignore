@@ -1,9 +1,10 @@
-# Track source, documentation, and the lightweight formal experiment archive.
+# Track source, documentation, and all available experiment result artifacts.
 /*
 !/.gitignore
 !/README.md
 !/requirements-fedlora20-server.txt
 !/server_fedlora20_manifest.json
+!/four_methods20.log
 !/alg/
 !/configs/
 !/docs/
@@ -28,18 +29,9 @@
 *.pkl
 *.pickle
 
-# Keep scalar metrics and provenance; omit row-level predictions and exposure.
-*.jsonl
-!metrics.jsonl
-*_predictions.csv
-*_predictions.json
-*_predictions.jsonl
-*.log
+# Keep logs, predictions, exposure, metrics, and smoke outputs; omit runtime locks.
 *.lock
 *.tmp
-/outputs/**/logs/
-/outputs/**/smoke*/
-/outputs/**/gpu_probe*/
 
 # Runtime caches, local tooling state, and credentials.
 __pycache__/

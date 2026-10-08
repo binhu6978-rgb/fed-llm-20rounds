@@ -1,0 +1,74 @@
+[
+  {
+    "round": 1,
+    "local_mean": 0.6868344344344345,
+    "global_macro": 0.5644622622622623,
+    "local_minus_global_pp": 12.237217217217221
+  },
+  {
+    "round": 2,
+    "local_mean": 0.712669069069069,
+    "global_macro": 0.6281625625625626,
+    "local_minus_global_pp": 8.450650650650637
+  },
+  {
+    "round": 3,
+    "local_mean": 0.7215013013013013,
+    "global_macro": 0.653564964964965,
+    "local_minus_global_pp": 6.793633633633633
+  },
+  {
+    "round": 4,
+    "local_mean": 0.7294712712712712,
+    "global_macro": 0.6653323323323324,
+    "local_minus_global_pp": 6.413893893893885
+  },
+  {
+    "round": 5,
+    "local_mean": 0.7278018018018018,
+    "global_macro": 0.6743325325325326,
+    "local_minus_global_pp": 5.346926926926921
+  },
+  {
+    "round": 6,
+    "local_mean": 0.7299027027027026,
+    "global_macro": 0.676634034034034,
+    "local_minus_global_pp": 5.3268668668668635
+  },
+  {
+    "round": 7,
+    "local_mean": 0.7257691691691692,
+    "global_macro": 0.6841667667667668,
+    "local_minus_global_pp": 4.160240240240243
+  },
+  {
+    "round": 8,
+    "local_mean": 0.7315369369369369,
+    "global_macro": 0.687867067067067,
+    "local_minus_global_pp": 4.366986986986987
+  },
+  {
+    "round": 9,
+    "local_mean": 0.7340696696696696,
+    "global_macro": 0.692033033033033,
+    "local_minus_global_pp": 4.20366366366366
+  },
+  {
+    "round": 10,
+    "local_mean": 0.7267371371371372,
+    "global_macro": 0.6932994994994994,
+    "local_minus_global_pp": 3.343763763763774
+  },
+  {
+    "round": 11,
+    "local_mean": 0.695833033033033,
+    "global_macro": 0.6938666666666666,
+    "local_minus_global_pp": 0.19663663663663788
+  },
+  {
+    "round": 12,
+    "local_mean": 0.6947995995995996,
+    "global_macro": 0.6941003003003002,
+    "local_minus_global_pp": 0.06992992992993496
+  }
+]

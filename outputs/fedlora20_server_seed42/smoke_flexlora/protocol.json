@@ -1,0 +1,143 @@
+{
+  "method": "flexlora",
+  "smoke": true,
+  "source_round": 10,
+  "target_round": 12,
+  "additional_rounds": 2,
+  "original_protocol": {
+    "config": {
+      "domains": [
+        "cosmosqa",
+        "openbookqa",
+        "sciq",
+        "hellaswag",
+        "race"
+      ],
+      "model_path": "models/models--llama3.2-1B",
+      "initial_lora": "models/initial_lora/seed42_r8_alpha32_qv.pt",
+      "prepared_dir": "dataset/cosmosqa_five_client4000_seed42",
+      "seed": 42,
+      "train_samples_per_dataset": 4000,
+      "rounds": 10,
+      "clientlocal_epochs": 10,
+      "centralized_epochs": 10,
+      "local_epochs_per_round": 1,
+      "batch_size": 1,
+      "gradient_accumulation": 8,
+      "learning_rate": 0.0001,
+      "step": 0,
+      "drop_last": false,
+      "lora_rank": 8,
+      "lora_alpha": 32,
+      "lora_dropout": 0.05,
+      "eval_batch_size": 8,
+      "reuse_all_base_local": true,
+      "cross_domain_matrix": false
+    },
+    "smoke": false,
+    "initial_lora_sha256": "d25a22f3004be19d03a51a58c6e39e0f627482f91da2ca8938c370cd2911e2ec",
+    "runner_sha256": "2b6426610a85f97f7a05c537995e783bc3a98dde6b283d8e52c9fb9f8a9c0155",
+    "data_helper_sha256": "4e6c67e338635f20d6cacc16b968c4a44c64eba924e8c1230aa087983c094326",
+    "prepared_manifest_sha256": "6d7379d993798888f558fe57dececfa2c93712332e1f49bc03efa170988746bd",
+    "mcq_trainer_sha256": "5b3f6d47cc2aa40e8a784a8994f045f41f51dd7e27353d8029bbffd4b2b091d4",
+    "aggregation_sha256": "10fe0e857c002bae4a63627a06f8420527c595b7df35133b36d50cbc225ff067",
+    "counts": {
+      "cosmosqa": 4000,
+      "openbookqa": 4000,
+      "sciq": 4000,
+      "hellaswag": 4000,
+      "race": 4000
+    },
+    "weights": {
+      "cosmosqa": 0.2,
+      "openbookqa": 0.2,
+      "sciq": 0.2,
+      "hellaswag": 0.2,
+      "race": 0.2
+    },
+    "rounds": 10,
+    "clientlocal_epochs": 10,
+    "optimizer_reset_per_client_epoch": true,
+    "base_frozen": true,
+    "aggregation": "Verbatim alg.flexlora.Server.aggregate and alg.flexlora.Client.run",
+    "centralized_epochs": 10,
+    "client_count": 5,
+    "suite_runner_sha256": "197f5292614cb1d7a0b94d8819f3857f0d40e0f954cbffdd44dd28baa8664b6d",
+    "encoder_sha256": "e4ee05034d5d7f2d7e052d325e1f0f4bf891c89e5477d6339610a66020aff676",
+    "choice_evaluator_sha256": "fdbdbaec4cdfd4b4b60535b91c0e440ac684840f7c6f5f1c2e9b637f67bb5683",
+    "passage_encoder_sha256": "4830e196dd91449d858229442c33edd30e0eceee2b26c495ac17361ae2704b1b",
+    "cosmos_encoder_sha256": "3844342ea36655ed651a5bbfe3d304234d3057d2be0267bb2b5796d43740eedb",
+    "previous_encoder_sha256": "0e71c476b45436829575d0dc74d269e52c32c872ba0f08745f2113fce60b9322",
+    "seed_utils_sha256": "ecef05a59bb8a794ddbb7d680244b01fdf5386e9b116c3f2172d28b2a702bf26",
+    "model_utils_sha256": "70e0b0d2c8ab96e6fc15d73c7736720fa554f0af9edcdab3f56efbaaa90008cb",
+    "canonical_initial_tensor_sha256": "2499167c8ba147f32045ce230fd2c26d88ddca0eddf6447061848502d7b87f23",
+    "reuse_all_base_local": true,
+    "own_domain_local_evaluation_only": true,
+    "cross_domain_matrix": false,
+    "checkpoint_selection": "One shared best test Macro round; earliest tie; final10 also reported",
+    "fresh_methods": [
+      "flexlora"
+    ],
+    "centralized_samples": 20000,
+    "client_seed_rule": "client_round_seed(42, client_id, round_or_epoch-1)",
+    "method": "flexlora",
+    "loaded_full_counts": {
+      "cosmosqa": 4000,
+      "openbookqa": 4000,
+      "sciq": 4000,
+      "hellaswag": 4000,
+      "race": 4000
+    },
+    "algorithm_parameters": {
+      "s": 2
+    },
+    "algorithm_sha256": "db20d3004662205da26ca9c19aa67c4125bba92927eae5ad8f4689a2e7917199",
+    "baseline_runner_sha256": "12d87abe56066ed16e07f8a41286a22634a659bc8194bdfce998d90495a4e044",
+    "baseline_data_sha256": "64967265b9e5c1c9c4f379ba243269487cff7587e141045be8a8ca3264a9d2a7",
+    "canonical_mutable_backbone_sha256": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+    "mutated_backbone_in_checkpoint": false,
+    "smoke_full_tests": true,
+    "evaluation_capabilities": 5,
+    "shared_models": 1,
+    "heterogeneous_rank": false,
+    "test_counts": {
+      "cosmosqa": 1500,
+      "openbookqa": 1000,
+      "sciq": 1998,
+      "hellaswag": 1500,
+      "race": 1500
+    },
+    "baseline_implementation_modified": false,
+    "warnings": [
+      "Literal repository decomposition is preserved: delta_W=s*sum(w_i B_i A_i); B=U_r sqrt(Sigma_r)/s; A=Vh_r. No alternative SVD factorization or hyperparameter tuning is substituted."
+    ],
+    "command": "python -X utf8 -u scripts/run_fedlora_baseline.py --alg flexlora --suffix baseline_flexlora_5source_seed42 --s 2",
+    "common_original_command": "python -X utf8 -u scripts/run_cosmosqa_five_experiments.py --job fedavg"
+  },
+  "canonical_base_hash": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+  "train_counts": {
+    "cosmosqa": 8,
+    "openbookqa": 8,
+    "sciq": 8,
+    "hellaswag": 8,
+    "race": 8
+  },
+  "test_counts": {
+    "cosmosqa": 1500,
+    "openbookqa": 1000,
+    "sciq": 1998,
+    "hellaswag": 1500,
+    "race": 1500
+  },
+  "original_algorithms_unchanged": true,
+  "local_model_evaluation": "raw training end before upload alignment",
+  "absolute_round_seed": true,
+  "optimizer_reset_each_client_epoch": true,
+  "weights": {
+    "cosmosqa": 0.2,
+    "openbookqa": 0.2,
+    "sciq": 0.2,
+    "hellaswag": 0.2,
+    "race": 0.2
+  }
+}

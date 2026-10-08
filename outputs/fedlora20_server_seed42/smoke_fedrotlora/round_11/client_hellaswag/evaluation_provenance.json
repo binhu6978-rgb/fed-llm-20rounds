@@ -1,0 +1,10 @@
+{
+  "function_state_sha256": "06d4d77deff3ebfbceb12a1da2b96c3e9d576fe43e0ac74efc0fcd04773915f1",
+  "checkpoint": "outputs/fedlora20_server_seed42/smoke_fedrotlora/round_11/client_hellaswag/raw_lora.pt",
+  "domains": [
+    "hellaswag"
+  ],
+  "round": 11,
+  "canonical_base_sha256": "a5f00ba3db98dd347c0247a1e0c53d1ff750084154229ef5dfb5b66c04bd0cca",
+  "backbone_included": false
+}

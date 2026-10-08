@@ -1,0 +1,5 @@
+{
+  "cosmosqa_accuracy": 0.636,
+  "macro_accuracy": 0.636,
+  "worst_domain_accuracy": 0.636
+}

@@ -1,0 +1,1 @@
+{"round": 12, "cosmosqa_accuracy": 0.6366666666666667, "openbookqa_accuracy": 0.639, "sciq_accuracy": 0.8043043043043043, "hellaswag_accuracy": 0.7113333333333334, "race_accuracy": 0.626, "macro_accuracy": 0.6834608608608609, "worst_domain_accuracy": 0.626}

@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "smoke": true,
+  "reused_rounds": 10,
+  "new_rounds": 2,
+  "new_sample_visits": 80,
+  "new_optimizer_updates": 10,
+  "total_formal_updates": null,
+  "total_formal_visits": null,
+  "complete_backbone_restored": true,
+  "absolute_round_seed": true,
+  "raw_local_test_each_round": true,
+  "full_test_sets": true,
+  "original_algorithm_unchanged": true,
+  "file_hash_validation": false,
+  "previous_global_is_next_start": true
+}
